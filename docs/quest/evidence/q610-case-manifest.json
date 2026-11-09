@@ -1,0 +1,276 @@
+{
+  "schema": "submission-case-manifest-without-content-v1",
+  "scope": "Case IDs, groups, split and reference time only. Authored questions and evidence bodies are omitted under submission rules. This is not a replay corpus.",
+  "cases": [
+    {
+      "id": "q610-01",
+      "split": "development",
+      "group": "normal",
+      "inputOrigin": "synthetic",
+      "evidenceOrigin": "synthetic-explicit",
+      "asOf": "2026-11-09T03:00:00.000Z",
+      "executionStatus": "not-run"
+    },
+    {
+      "id": "q610-02",
+      "split": "development",
+      "group": "normal",
+      "inputOrigin": "synthetic",
+      "evidenceOrigin": "synthetic-explicit",
+      "asOf": "2026-11-09T03:00:00.000Z",
+      "executionStatus": "not-run"
+    },
+    {
+      "id": "q610-03",
+      "split": "development",
+      "group": "normal",
+      "inputOrigin": "synthetic",
+      "evidenceOrigin": "synthetic-explicit",
+      "asOf": "2026-11-09T03:00:00.000Z",
+      "executionStatus": "not-run"
+    },
+    {
+      "id": "q610-04",
+      "split": "development",
+      "group": "normal",
+      "inputOrigin": "synthetic",
+      "evidenceOrigin": "synthetic-explicit",
+      "asOf": "2026-11-09T03:00:00.000Z",
+      "executionStatus": "not-run"
+    },
+    {
+      "id": "q610-05",
+      "split": "development",
+      "group": "normal",
+      "inputOrigin": "synthetic",
+      "evidenceOrigin": "synthetic-explicit",
+      "asOf": "2026-11-09T03:00:00.000Z",
+      "executionStatus": "not-run"
+    },
+    {
+      "id": "q610-06",
+      "split": "development",
+      "group": "normal",
+      "inputOrigin": "synthetic",
+      "evidenceOrigin": "synthetic-explicit",
+      "asOf": "2026-11-09T03:00:00.000Z",
+      "executionStatus": "not-run"
+    },
+    {
+      "id": "q610-07",
+      "split": "development",
+      "group": "normal",
+      "inputOrigin": "synthetic",
+      "evidenceOrigin": "synthetic-explicit",
+      "asOf": "2026-11-09T03:00:00.000Z",
+      "executionStatus": "not-run"
+    },
+    {
+      "id": "q610-08",
+      "split": "development",
+      "group": "normal",
+      "inputOrigin": "synthetic",
+      "evidenceOrigin": "synthetic-explicit",
+      "asOf": "2026-11-09T03:00:00.000Z",
+      "executionStatus": "not-run"
+    },
+    {
+      "id": "q610-09",
+      "split": "development",
+      "group": "normal",
+      "inputOrigin": "synthetic",
+      "evidenceOrigin": "synthetic-explicit",
+      "asOf": "2026-11-09T03:00:00.000Z",
+      "executionStatus": "not-run"
+    },
+    {
+      "id": "q610-10",
+      "split": "development",
+      "group": "normal",
+      "inputOrigin": "synthetic",
+      "evidenceOrigin": "synthetic-explicit",
+      "asOf": "2026-11-09T03:00:00.000Z",
+      "executionStatus": "not-run"
+    },
+    {
+      "id": "q610-11",
+      "split": "development",
+      "group": "problem",
+      "inputOrigin": "synthetic",
+      "evidenceOrigin": "synthetic-explicit",
+      "asOf": "2026-11-09T03:00:00.000Z",
+      "executionStatus": "not-run"
+    },
+    {
+      "id": "q610-12",
+      "split": "development",
+      "group": "problem",
+      "inputOrigin": "synthetic",
+      "evidenceOrigin": "synthetic-explicit",
+      "asOf": "2026-11-09T03:00:00.000Z",
+      "executionStatus": "not-run"
+    },
+    {
+      "id": "q610-13",
+      "split": "development",
+      "group": "problem",
+      "inputOrigin": "synthetic",
+      "evidenceOrigin": "synthetic-explicit",
+      "asOf": "2026-11-09T03:00:00.000Z",
+      "executionStatus": "not-run"
+    },
+    {
+      "id": "q610-14",
+      "split": "development",
+      "group": "problem",
+      "inputOrigin": "synthetic",
+      "evidenceOrigin": "synthetic-explicit",
+      "asOf": "2026-11-09T03:00:00.000Z",
+      "executionStatus": "not-run"
+    },
+    {
+      "id": "q610-15",
+      "split": "development",
+      "group": "problem",
+      "inputOrigin": "synthetic",
+      "evidenceOrigin": "synthetic-explicit",
+      "asOf": "2026-11-09T03:00:00.000Z",
+      "executionStatus": "not-run"
+    },
+    {
+      "id": "q610-16",
+      "split": "development",
+      "group": "problem",
+      "inputOrigin": "synthetic",
+      "evidenceOrigin": "synthetic-explicit",
+      "asOf": "2026-11-09T03:00:00.000Z",
+      "executionStatus": "not-run"
+    },
+    {
+      "id": "q610-17",
+      "split": "development",
+      "group": "problem",
+      "inputOrigin": "synthetic",
+      "evidenceOrigin": "synthetic-explicit",
+      "asOf": "2026-11-09T03:00:00.000Z",
+      "executionStatus": "not-run"
+    },
+    {
+      "id": "q610-18",
+      "split": "development",
+      "group": "problem",
+      "inputOrigin": "synthetic",
+      "evidenceOrigin": "synthetic-explicit",
+      "asOf": "2026-11-09T03:00:00.000Z",
+      "executionStatus": "not-run"
+    },
+    {
+      "id": "q610-19",
+      "split": "development",
+      "group": "problem",
+      "inputOrigin": "synthetic",
+      "evidenceOrigin": "synthetic-explicit",
+      "asOf": "2026-11-09T03:00:00.000Z",
+      "executionStatus": "not-run"
+    },
+    {
+      "id": "q610-20",
+      "split": "development",
+      "group": "problem",
+      "inputOrigin": "synthetic",
+      "evidenceOrigin": "synthetic-explicit",
+      "asOf": "2026-11-09T03:00:00.000Z",
+      "executionStatus": "not-run"
+    },
+    {
+      "id": "q610-21",
+      "split": "held-out",
+      "group": "normal",
+      "inputOrigin": "synthetic",
+      "evidenceOrigin": "synthetic-explicit",
+      "asOf": "2026-11-09T03:00:00.000Z",
+      "executionStatus": "not-run"
+    },
+    {
+      "id": "q610-22",
+      "split": "held-out",
+      "group": "normal",
+      "inputOrigin": "synthetic",
+      "evidenceOrigin": "synthetic-explicit",
+      "asOf": "2026-11-09T03:00:00.000Z",
+      "executionStatus": "not-run"
+    },
+    {
+      "id": "q610-23",
+      "split": "held-out",
+      "group": "normal",
+      "inputOrigin": "synthetic",
+      "evidenceOrigin": "synthetic-explicit",
+      "asOf": "2026-11-09T03:00:00.000Z",
+      "executionStatus": "not-run"
+    },
+    {
+      "id": "q610-24",
+      "split": "held-out",
+      "group": "normal",
+      "inputOrigin": "synthetic",
+      "evidenceOrigin": "synthetic-explicit",
+      "asOf": "2026-11-09T03:00:00.000Z",
+      "executionStatus": "not-run"
+    },
+    {
+      "id": "q610-25",
+      "split": "held-out",
+      "group": "normal",
+      "inputOrigin": "synthetic",
+      "evidenceOrigin": "synthetic-explicit",
+      "asOf": "2026-11-09T03:00:00.000Z",
+      "executionStatus": "not-run"
+    },
+    {
+      "id": "q610-26",
+      "split": "held-out",
+      "group": "problem",
+      "inputOrigin": "synthetic",
+      "evidenceOrigin": "synthetic-explicit",
+      "asOf": "2026-11-09T03:00:00.000Z",
+      "executionStatus": "not-run"
+    },
+    {
+      "id": "q610-27",
+      "split": "held-out",
+      "group": "problem",
+      "inputOrigin": "synthetic",
+      "evidenceOrigin": "synthetic-explicit",
+      "asOf": "2026-11-09T03:00:00.000Z",
+      "executionStatus": "not-run"
+    },
+    {
+      "id": "q610-28",
+      "split": "held-out",
+      "group": "problem",
+      "inputOrigin": "synthetic",
+      "evidenceOrigin": "synthetic-explicit",
+      "asOf": "2026-11-09T03:00:00.000Z",
+      "executionStatus": "not-run"
+    },
+    {
+      "id": "q610-29",
+      "split": "held-out",
+      "group": "problem",
+      "inputOrigin": "synthetic",
+      "evidenceOrigin": "synthetic-explicit",
+      "asOf": "2026-11-09T03:00:00.000Z",
+      "executionStatus": "not-run"
+    },
+    {
+      "id": "q610-30",
+      "split": "held-out",
+      "group": "problem",
+      "inputOrigin": "synthetic",
+      "evidenceOrigin": "synthetic-explicit",
+      "asOf": "2026-11-09T03:00:00.000Z",
+      "executionStatus": "not-run"
+    }
+  ]
+}

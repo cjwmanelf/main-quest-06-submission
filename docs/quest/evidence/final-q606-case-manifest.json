@@ -1,0 +1,76 @@
+{
+  "schema": "submission-case-manifest-without-content-v1",
+  "scope": "Case IDs, groups, split and reference time only. Authored questions and evidence bodies are omitted under submission rules. This is not a replay corpus.",
+  "cases": [
+    {
+      "id": "ind6-n01",
+      "split": "held-out",
+      "inputOrigin": "synthetic",
+      "classification": "normal",
+      "asOf": "2026-10-23T08:00:00.000Z"
+    },
+    {
+      "id": "ind6-n02",
+      "split": "held-out",
+      "inputOrigin": "synthetic",
+      "classification": "normal",
+      "asOf": "2026-09-19T09:00:00.000Z"
+    },
+    {
+      "id": "ind6-n03",
+      "split": "held-out",
+      "inputOrigin": "synthetic",
+      "classification": "normal",
+      "asOf": "2026-11-02T06:00:00.000Z"
+    },
+    {
+      "id": "ind6-n04",
+      "split": "held-out",
+      "inputOrigin": "synthetic",
+      "classification": "normal",
+      "asOf": "2026-08-16T12:00:00.000Z"
+    },
+    {
+      "id": "ind6-n05",
+      "split": "held-out",
+      "inputOrigin": "synthetic",
+      "classification": "normal",
+      "asOf": "2026-07-28T10:00:00.000Z"
+    },
+    {
+      "id": "ind6-p01",
+      "split": "held-out",
+      "inputOrigin": "synthetic",
+      "classification": "problem",
+      "asOf": "2026-10-04T14:00:00.000Z"
+    },
+    {
+      "id": "ind6-p02",
+      "split": "held-out",
+      "inputOrigin": "synthetic",
+      "classification": "problem",
+      "asOf": "2026-06-21T11:00:00.000Z"
+    },
+    {
+      "id": "ind6-p03",
+      "split": "held-out",
+      "inputOrigin": "synthetic",
+      "classification": "problem",
+      "asOf": "2026-05-12T18:00:00.000Z"
+    },
+    {
+      "id": "ind6-p04",
+      "split": "held-out",
+      "inputOrigin": "synthetic",
+      "classification": "problem",
+      "asOf": "2026-11-08T12:00:00.000Z"
+    },
+    {
+      "id": "ind6-p05",
+      "split": "held-out",
+      "inputOrigin": "synthetic",
+      "classification": "problem",
+      "asOf": "2026-11-07T14:45:00.000Z"
+    }
+  ]
+}

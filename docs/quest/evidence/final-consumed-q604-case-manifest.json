@@ -1,0 +1,76 @@
+{
+  "schema": "submission-case-manifest-without-content-v1",
+  "scope": "Case IDs, groups, split and reference time only. Authored questions and evidence bodies are omitted under submission rules. This is not a replay corpus.",
+  "cases": [
+    {
+      "id": "q604-v3-independent-01",
+      "split": "held-out",
+      "inputOrigin": "synthetic",
+      "group": "normal",
+      "asOf": "2027-02-17T08:30:00.000Z"
+    },
+    {
+      "id": "q604-v3-independent-02",
+      "split": "held-out",
+      "inputOrigin": "synthetic",
+      "group": "normal",
+      "asOf": "2027-03-08T18:00:00.000Z"
+    },
+    {
+      "id": "q604-v3-independent-03",
+      "split": "held-out",
+      "inputOrigin": "synthetic",
+      "group": "normal",
+      "asOf": "2027-04-11T10:00:00.000Z"
+    },
+    {
+      "id": "q604-v3-independent-04",
+      "split": "held-out",
+      "inputOrigin": "synthetic",
+      "group": "normal",
+      "asOf": "2027-06-22T09:00:00.000Z"
+    },
+    {
+      "id": "q604-v3-independent-05",
+      "split": "held-out",
+      "inputOrigin": "synthetic",
+      "group": "normal",
+      "asOf": "2027-07-14T15:00:00.000Z"
+    },
+    {
+      "id": "q604-v3-independent-06",
+      "split": "held-out",
+      "inputOrigin": "synthetic",
+      "group": "problem",
+      "asOf": "2027-08-05T16:00:00.000Z"
+    },
+    {
+      "id": "q604-v3-independent-07",
+      "split": "held-out",
+      "inputOrigin": "synthetic",
+      "group": "problem",
+      "asOf": "2027-09-09T13:00:00.000Z"
+    },
+    {
+      "id": "q604-v3-independent-08",
+      "split": "held-out",
+      "inputOrigin": "synthetic",
+      "group": "problem",
+      "asOf": "2027-10-18T17:00:00.000Z"
+    },
+    {
+      "id": "q604-v3-independent-09",
+      "split": "held-out",
+      "inputOrigin": "synthetic",
+      "group": "problem",
+      "asOf": "2027-11-24T12:00:00.000Z"
+    },
+    {
+      "id": "q604-v3-independent-10",
+      "split": "held-out",
+      "inputOrigin": "synthetic",
+      "group": "problem",
+      "asOf": "2028-01-06T11:00:00.000Z"
+    }
+  ]
+}
