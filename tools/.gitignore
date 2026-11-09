@@ -1,0 +1,11 @@
+.env*
+private/
+raw/
+*.private.*
+*.raw.*
+*.key
+*.pem
+*.p12
+*.pfx
+*.log
+__pycache__/

@@ -2,7 +2,7 @@
 
 **제출 본문: [REPORT.md](REPORT.md)** · [공개 평가 증거](docs/quest/evidence/final-README.md) · [최종 검토 및 보완 내역](docs/quest/review-reconciliation.md)
 
-**서비스 코드: [src/](src/)** · [설치·실행 방법](SERVICE.md) · [제출 규정 반영 및 검증 결과](docs/quest/submission-packaging-check.md)
+**서비스 코드: [service/src/](service/src/)** · [설치·실행 방법](docs/service/README.md) · [제출 규정 반영 및 검증 결과](docs/quest/submission-packaging-check.md)
 
 미국 주식 대시보드의 LLM 브리핑에서 실제 실행 로그로 문제를 찾고, 실패한 실험을 포함해 개선 전후를 비교한 과제입니다. 이 저장소에는 **서비스 전체 코드와 REPORT.md**를 함께 넣고, 대화 내용과 키를 제외한 평가 메타데이터·트레이스, 배포 검증, 화면 캡처, 독립 검토를 모았습니다. README는 안내와 요약이고 과정·결과의 본문은 REPORT.md입니다.
 
@@ -14,13 +14,13 @@
 | 최종 배포 확인 | [검토 반영 배포](docs/quest/review-deployment.md), [새 대화 3건 검증](docs/quest/reviewed-live-verification.md) |
 | 독립 검토 | [Fable 검토 원문](docs/quest/final-review.md), [후속 코드 검토](docs/quest/review-code-followup.md), [보완 반영표](docs/quest/review-reconciliation.md) |
 
-서비스 코드는 이 저장소의 [src/](src/)에 있으며 [실행 방법](SERVICE.md), `package.json`·잠금 파일·빌드 설정·DB 스키마를 함께 포함했습니다. 원본 변경 이력은 위 커밋과 PR에서 확인할 수 있습니다. 제출 자료를 읽는 데는 원본 앱 실행이나 로그인이 필요하지 않습니다. 이 저장소의 `tools/quest-evaluation/versions/`는 평가 당시 v1/v2 코드의 동결 사본이며 현재 배포 코드가 아닙니다.
+서비스 코드는 이 저장소의 [service/src/](service/src/)에 있으며 [실행 방법](docs/service/README.md), `service/package.json`·잠금 파일·빌드 설정·DB 스키마를 함께 포함했습니다. 원본 변경 이력은 위 커밋과 PR에서 확인할 수 있습니다. 제출 자료를 읽는 데는 원본 앱 실행이나 로그인이 필요하지 않습니다. 이 저장소의 `service/tools/quest-evaluation/versions/`는 평가 당시 v1/v2 코드의 동결 사본이며 현재 배포 코드가 아닙니다.
 
 ## REPORT.md 필수 내용 7가지
 
 | 항목 | 보고서에 정리한 내용 | 본문 및 증거 |
 | --- | --- | --- |
-| 1. 로그 | 분석한 트레이스·피드백 수, 직접 만든 대화의 제작 방법과 실제 모델 호출 구분 | [1절](REPORT.md#requirement-1), [공개 입력과 응답](docs/quest/evidence/final-README.md) |
+| 1. 로그 | 분석한 트레이스·피드백 수, 직접 만든 대화의 제작 방법과 실제 모델 호출 구분 | [1절](REPORT.md#requirement-1), [사례 구성과 실행 메타데이터](docs/quest/evidence/final-README.md) |
 | 2. 문제 후보 | 현상, 근거 trace ID, 반복 횟수·분모, 처음 어긋난 단계, 사용자 노출 여부 | [2절](REPORT.md#requirement-2), [baseline 분석](docs/quest/live-baseline-analysis.md) |
 | 3. 고른 문제와 이유 | 빈도·영향·수정 비용 비교표와 native text 추출 문제의 우선 선정 이유 | [3절](REPORT.md#requirement-3) |
 | 4. 데이터셋과 기준 | 정상/문제 항목 수, 사례별 통과 조건, 실행 전 고정한 출시 기준 | [4절](REPORT.md#requirement-4), [사전 protocol](docs/quest/evidence/final-q606-protocol.json), [rubric](docs/quest/evidence/final-q606-rubrics.json) |
@@ -50,26 +50,31 @@
 ## 자료 구성과 검증
 
 ```text
-README.md                         제출 안내·7개 필수 항목·5개 평가기준
-REPORT.md                         제출 본문
-docs/quest/                       실험·분석·배포·검토 문서
-src/                              전체 서비스 코드
-package.json / package-lock.json  실행 의존성과 잠금 파일
-supabase/schema.sql               DB 스키마·접근 정책
-SERVICE.md                        설치·환경설정·실행 안내
-docs/quest/evidence/               본문 없는 JSON·CSV·해시
-docs/quest/evidence/screenshots/   화면 캡처 7개
-docs/quest/review/index.html       독립 검토 웹 보고서
-tools/quest-evaluation/versions/  평가 당시 v1/v2 소스 사본
-scripts/verify-submission.mjs      네트워크·모델 호출 없는 검증
-SUBMISSION_PROVENANCE.json         원본 커밋·파일별 출처와 변환 기록
-SHA256SUMS.json                    제출 파일 무결성 목록
+README.md                  제출 안내·필수 7개 항목·평가기준 5개
+REPORT.md                  제출 본문
+service/                   전체 서비스 코드·의존성·빌드/배포 설정
+  src/                     앱 화면·API·브리핑 로직
+  scripts/                 기능 검사·배포 도구
+  tools/quest-evaluation/  평가 도구·동결 v1/v2 코드
+docs/
+  service/                 실행 안내·제품 정의
+  quest/                   실험·평가·배포·검토·스크린샷
+  submission/              제출 파일 해시·출처 기록
+tools/submission/          제출본 검증 도구
 ```
 
-Node.js 20 이상에서 저장소 루트에서 실행합니다. 패키지 설치, API 키, 모델 호출은 필요하지 않습니다.
+서비스를 실행하려면 먼저 `service/`로 이동합니다. 환경설정은 [실행 안내](docs/service/README.md)를 따릅니다.
 
 ```bash
-node scripts/verify-submission.mjs
+cd service
+npm ci
+npm run dev -- --hostname 127.0.0.1
+```
+
+제출 파일 검증은 Node.js 20 이상에서 **저장소 루트**에서 실행합니다. 패키지 설치, API 키, 모델 호출은 필요하지 않습니다.
+
+```bash
+node tools/submission/verify.mjs
 ```
 
 현재 제출 파일 해시, 평가 증거의 해시, Markdown/HTML의 내부 파일 링크와 앵커, 최종 사례10개·실행 메타데이터20개의 판정 연결을 확인합니다. 이 검증은 기존 증거의 무결성 검사이며 새로운 모델 평가가 아닙니다. 대화 본문을 제외한 공개 범위와 검증의 한계는 [평가 증거 안내](docs/quest/evidence/final-README.md)를 참고하세요.
@@ -80,4 +85,4 @@ node scripts/verify-submission.mjs
 
 제출 규정에 맞춰 서비스 코드와 분석·검증 자료를 모았습니다. 질문·모델 답변 본문을 담은 파일은 제외했습니다. 개인 자산현황·보유 수량·계좌 정보·환경변수 파일·API 키·비공개 원시 로그는 포함하지 않았습니다. 화면 캡처는 브리핑과 평가 증빙 화면입니다. 실제 시장정보를 사용하는 배포 기록과 합성 평가 입력은 문서에서 구분했습니다.
 
-출처는 원본 커밋 `594ad5a64bc6b88a24e6a0c3228ab870bdae9e06`입니다. 이번 변경은 제출 구성 수정이며 새 모델 호출이나 재배포는 하지 않았습니다. 서비스·동결 소스와 화면 증빙의 바이트를 보존했습니다. JSON·CSV에서는 질문·답변 본문을 제외했으며, 문서의 링크·공개 범위 안내와 해시 목록을 갱신했습니다. 파일별 원본/제출 해시와 변환 종류는 [출처 기록](SUBMISSION_PROVENANCE.json)에 있습니다. 원본 보고서의 과거 검토 결과는 당시 상태에 대한 기록입니다.
+출처는 원본 커밋 `594ad5a64bc6b88a24e6a0c3228ab870bdae9e06`입니다. 이번 변경은 제출 구성 수정이며 새 모델 호출이나 재배포는 하지 않았습니다. 서비스·동결 소스와 화면 증빙의 바이트를 보존했습니다. JSON·CSV에서는 질문·답변 본문을 제외했으며, 문서의 링크·공개 범위 안내와 해시 목록을 갱신했습니다. 파일별 원본/제출 해시와 변환 종류는 [출처 기록](docs/submission/SUBMISSION_PROVENANCE.json)에 있습니다. 원본 보고서의 과거 검토 결과는 당시 상태에 대한 기록입니다.

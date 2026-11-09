@@ -4,10 +4,13 @@ import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
 import assert from 'node:assert/strict';
 
-const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 const read = p => fs.readFileSync(path.join(root, p));
 const json = p => JSON.parse(read(p).toString('utf8').replace(/^\uFEFF/, ''));
-const hash = p => createHash('sha256').update(read(p)).digest('hex');
+// Root Markdown uses Git's normal text handling; accept Windows CRLF checkouts.
+const hash = p => createHash('sha256').update(
+  ['README.md', 'REPORT.md'].includes(p) ? read(p).toString('utf8').replaceAll('\r\n', '\n') : read(p)
+).digest('hex');
 function checkHashes(files, prefix = '') {
   for (const [file, expected] of Object.entries(files)) {
     const name = prefix + file.replaceAll('\\', '/');
@@ -15,11 +18,11 @@ function checkHashes(files, prefix = '') {
   }
   return Object.keys(files).length;
 }
-const archive = json('SHA256SUMS.json');
+const archive = json('docs/submission/SHA256SUMS.json');
 const archiveCount = checkHashes(archive.files);
 const frozenCount = checkHashes(json('docs/quest/evidence/final-export-manifest.json').files);
 const earlierCount = checkHashes(json('docs/quest/evidence/q610-export-hashes.json'), 'docs/quest/evidence/');
-const provenance = json('SUBMISSION_PROVENANCE.json');
+const provenance = json('docs/submission/SUBMISSION_PROVENANCE.json');
 for (const file of provenance.files) {
   assert.equal(hash(file.path), file.submissionSha256, `Provenance mismatch: ${file.path}`);
   if (file.transformation === 'byte-identical copy') assert.equal(file.originalSha256, file.submissionSha256);

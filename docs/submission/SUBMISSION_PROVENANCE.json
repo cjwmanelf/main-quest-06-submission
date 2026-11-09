@@ -13,142 +13,165 @@
   ],
   "files": [
     {
-      "path": ".dockerignore",
+      "path": "service/.dockerignore",
       "originalSha256": "0086830fa6926827268a08aab104ff19e22dcf2cfa96478b73d45dc0bbaa863d",
       "submissionSha256": "0086830fa6926827268a08aab104ff19e22dcf2cfa96478b73d45dc0bbaa863d",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": ".dockerignore"
     },
     {
-      "path": ".gcloudignore",
+      "path": "service/.gcloudignore",
       "originalSha256": "23c9e1b0c4c87a4bea6304eca5c2df06effea959d5cd405a2e22cdc75ffd30ad",
       "submissionSha256": "23c9e1b0c4c87a4bea6304eca5c2df06effea959d5cd405a2e22cdc75ffd30ad",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": ".gcloudignore"
     },
     {
-      "path": ".vercelignore",
+      "path": "service/.vercelignore",
       "originalSha256": "786d66225b6ead990eb1508ce4f0b3856807fa0affec679c5d1d127c983199e5",
       "submissionSha256": "786d66225b6ead990eb1508ce4f0b3856807fa0affec679c5d1d127c983199e5",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": ".vercelignore"
     },
     {
-      "path": "Dockerfile",
+      "path": "service/Dockerfile",
       "originalSha256": "7e08badb7ca0860367d3eed107f068978ce2ec29b4eadf27ed2de26dca7354ee",
       "submissionSha256": "7e08badb7ca0860367d3eed107f068978ce2ec29b4eadf27ed2de26dca7354ee",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "Dockerfile"
     },
     {
-      "path": "PRD.md",
+      "path": "docs/service/PRD.md",
       "originalSha256": "1a179f855371da4d55ee14a8037439d80726688350f0207618852acf55eab8be",
-      "submissionSha256": "31e05fb19fba0953fc196f844f1f6f3e73ba9b26ab53bc3b0079253d53514fd7",
-      "transformation": "submission-rule content exclusion, metadata export or documentation update"
+      "submissionSha256": "e75bef271f285e25e36c1ffdc20368518fac895a548259d712a63d0d237055ca",
+      "transformation": "submission-rule content exclusion, metadata export or documentation update",
+      "sourcePath": "PRD.md"
     },
     {
       "path": "REPORT.md",
       "originalSha256": "19f344b373aea1afb379b4b633f7b0313e40f1741cd5f01e0ef08c7a2c80e06f",
-      "submissionSha256": "3eac4514e2a075aaa609b228f95f449bf2852666faa602a5a1ae37b617f55b04",
-      "transformation": "submission-rule content exclusion, metadata export or documentation update"
+      "submissionSha256": "9ca9c9d85cb1b81fca6c717a11ad77c355f04615fb089e444212728c450411f2",
+      "transformation": "submission-rule content exclusion, metadata export or documentation update",
+      "sourcePath": "REPORT.md"
     },
     {
       "path": "docs/quest/anthropic.md",
       "originalSha256": "f8ccd4b63534dbaf34c4af1dade9a94d819af0ab7a2d9c79dc1d0a96cdc28c59",
       "submissionSha256": "a1f6a3e0a30225c4dd4aac191db45a8e3383c4761aef5898300002f9de4d81da",
-      "transformation": "submission-rule content exclusion, metadata export or documentation update"
+      "transformation": "submission-rule content exclusion, metadata export or documentation update",
+      "sourcePath": "docs/quest/anthropic.md"
     },
     {
       "path": "docs/quest/citation-ui.md",
       "originalSha256": "98f72935366e7efb9dcbde7cd3eb811be5185a1c43c20f91a1b8f68de3b00f31",
       "submissionSha256": "cbcbd36e7d612d6b27e896fe623033c3d06f670960062468aba6e45febcc4cf5",
-      "transformation": "submission-rule content exclusion, metadata export or documentation update"
+      "transformation": "submission-rule content exclusion, metadata export or documentation update",
+      "sourcePath": "docs/quest/citation-ui.md"
     },
     {
       "path": "docs/quest/cloud-run.md",
       "originalSha256": "fbb2cc3d210e0611bc1b7033071f98b2d42f9086aded333df6f5fc486556c054",
-      "submissionSha256": "7122f3a54c3ec2417eb316c85fe7682b19f749ef606ccae0d9893409e673ea3b",
-      "transformation": "submission-rule content exclusion, metadata export or documentation update"
+      "submissionSha256": "362c0611771faad167ae906b3633da70016d1eb84f267b02d87efdacff6c9d0e",
+      "transformation": "submission-rule content exclusion, metadata export or documentation update",
+      "sourcePath": "docs/quest/cloud-run.md"
     },
     {
       "path": "docs/quest/dependency-review.md",
       "originalSha256": "c532abb0ef83ca14825af8c910b9dbb564f764042fe4c793c099bda84b8e1679",
-      "submissionSha256": "c532abb0ef83ca14825af8c910b9dbb564f764042fe4c793c099bda84b8e1679",
-      "transformation": "byte-identical copy"
+      "submissionSha256": "3d9760c9360b51623ca5330c9d15303402840ff538d08e85db06c41e053ad064",
+      "transformation": "submission-rule content exclusion, metadata export or documentation update",
+      "sourcePath": "docs/quest/dependency-review.md"
     },
     {
       "path": "docs/quest/deployed-live-verification.md",
       "originalSha256": "554878476c59ebd18cbf1787012b11d4f2f93a3880cd84ebfbc12b9d4b4b7066",
       "submissionSha256": "9ff5de5ee21dc5dc078cb86fa99b266812a1d68d81b72b4873116863f140f491",
-      "transformation": "submission-rule content exclusion, metadata export or documentation update"
+      "transformation": "submission-rule content exclusion, metadata export or documentation update",
+      "sourcePath": "docs/quest/deployed-live-verification.md"
     },
     {
       "path": "docs/quest/deployment-verification.md",
       "originalSha256": "dbd012218ba5139fa43405b094d34877c6797460815027117d3cb2751827bbd8",
-      "submissionSha256": "501a1b24654858fd473971c3f01e7bd4695a52d84e5c11aaab602b60b37bd2d0",
-      "transformation": "submission-rule content exclusion, metadata export or documentation update"
+      "submissionSha256": "7e00557d8995a7818ce1120238dc62ff4e487d1c22ca34b5790c88585ebd0dd7",
+      "transformation": "submission-rule content exclusion, metadata export or documentation update",
+      "sourcePath": "docs/quest/deployment-verification.md"
     },
     {
       "path": "docs/quest/evaluation-runbook.md",
       "originalSha256": "21a5e2cc33ce6d20f0bedcbc2ffe0cc775e5fd3445c1fbac116dde9dbde0264c",
       "submissionSha256": "b7f329da757a8a5de207c493b3a8503c17d7764745036f18165354c539b4c324",
-      "transformation": "submission-rule content exclusion, metadata export or documentation update"
+      "transformation": "submission-rule content exclusion, metadata export or documentation update",
+      "sourcePath": "docs/quest/evaluation-runbook.md"
     },
     {
       "path": "docs/quest/evidence/dependency-audit.json",
       "originalSha256": "cc7e4edd58b5c9e59edf33aa51326f0189af38419dcfc142f26f570ce33aed8b",
       "submissionSha256": "cc7e4edd58b5c9e59edf33aa51326f0189af38419dcfc142f26f570ce33aed8b",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "docs/quest/evidence/dependency-audit.json"
     },
     {
       "path": "docs/quest/evidence/deployed-baseline.csv",
       "originalSha256": "ff7a5bbf041345abeca45095f9837099c6c0511c8c5a4f882e787adb333ee864",
       "submissionSha256": "dd84e960aae818d59f9840c9bc615dc0ff0bd1d372d2bb70a4a05cd915d23dfa",
-      "transformation": "submission-rule content exclusion, metadata export or documentation update"
+      "transformation": "submission-rule content exclusion, metadata export or documentation update",
+      "sourcePath": "docs/quest/evidence/deployed-baseline.csv"
     },
     {
       "path": "docs/quest/evidence/deployed-baseline.json",
       "originalSha256": "10f9608ffdb19a865317e3b3cac9da3ac226913d50d0200a3249b18abebec1af",
       "submissionSha256": "fce2c46415c9a5b6b37b32b0b9c348fbba60114a2440794ab03c352ce785256b",
-      "transformation": "submission-rule content exclusion, metadata export or documentation update"
+      "transformation": "submission-rule content exclusion, metadata export or documentation update",
+      "sourcePath": "docs/quest/evidence/deployed-baseline.json"
     },
     {
       "path": "docs/quest/evidence/deployed-candidate.csv",
       "originalSha256": "1f1b94d279aed7ea68201277115d47599b074f82a62f2e362182f8cb7dbcea41",
       "submissionSha256": "05379e40ffb9973dcf7dc297904861d2728bbd4585da49baa6c1ba6007621157",
-      "transformation": "submission-rule content exclusion, metadata export or documentation update"
+      "transformation": "submission-rule content exclusion, metadata export or documentation update",
+      "sourcePath": "docs/quest/evidence/deployed-candidate.csv"
     },
     {
       "path": "docs/quest/evidence/deployed-candidate.json",
       "originalSha256": "8b68ad028ddc3cf8b37113161d35cd8d981654490df092fc2deb6137f4691c9e",
       "submissionSha256": "0f6e864d8fa5f6c56ee8a5bcfd244522e71c5d2c8d01e226a774c7f84925535b",
-      "transformation": "submission-rule content exclusion, metadata export or documentation update"
+      "transformation": "submission-rule content exclusion, metadata export or documentation update",
+      "sourcePath": "docs/quest/evidence/deployed-candidate.json"
     },
     {
       "path": "docs/quest/evidence/deployed-comparison.json",
       "originalSha256": "b899e274e9e70c72ccfd47ba4b0c3e298ee62f5657d5a148157af5b07d1abe42",
       "submissionSha256": "b899e274e9e70c72ccfd47ba4b0c3e298ee62f5657d5a148157af5b07d1abe42",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "docs/quest/evidence/deployed-comparison.json"
     },
     {
       "path": "docs/quest/evidence/deployed-feedback-summary.json",
       "originalSha256": "590b2c8047a692f420415663792e3950f058410f945729b8a04ab2174ab5c737",
       "submissionSha256": "590b2c8047a692f420415663792e3950f058410f945729b8a04ab2174ab5c737",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "docs/quest/evidence/deployed-feedback-summary.json"
     },
     {
       "path": "docs/quest/evidence/deployed-ui-smoke.json",
       "originalSha256": "fa350d03dfcc088b1a5c19b42cec003de74b29aebbe3d3283f037b2c27bc3e03",
       "submissionSha256": "fa350d03dfcc088b1a5c19b42cec003de74b29aebbe3d3283f037b2c27bc3e03",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "docs/quest/evidence/deployed-ui-smoke.json"
     },
     {
       "path": "docs/quest/evidence/final-README.md",
       "originalSha256": "878a570ff58e95a3ef0830e34ecb0a145b6fa39e05c580c404e1da30d181ccac",
-      "submissionSha256": "9b3a8c8edbfde7f83fc287b5b961fd25699394b4ac52014a5b15fb53653b6869",
-      "transformation": "submission-rule content exclusion, metadata export or documentation update"
+      "submissionSha256": "6b6ca71e6e2cd1d6a0d52054318dc89b8374c75f0dba52c4337038773211dee7",
+      "transformation": "submission-rule content exclusion, metadata export or documentation update",
+      "sourcePath": "docs/quest/evidence/final-README.md"
     },
     {
       "path": "docs/quest/evidence/final-blind-review.json",
       "originalSha256": "e959415dcfb3f1ed0f0e0dd50a296c64de0d317d8fc657ff7a97037bd4b66ece",
       "submissionSha256": "e959415dcfb3f1ed0f0e0dd50a296c64de0d317d8fc657ff7a97037bd4b66ece",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "docs/quest/evidence/final-blind-review.json"
     },
     {
       "path": "docs/quest/evidence/final-consumed-q604-case-manifest.json",
@@ -161,31 +184,36 @@
       "path": "docs/quest/evidence/final-consumed-q604-protocol.json",
       "originalSha256": "c22e75f949cf4235f7128ccdc09de6c00774efffbeeea65141408a977ffbc80a",
       "submissionSha256": "c22e75f949cf4235f7128ccdc09de6c00774efffbeeea65141408a977ffbc80a",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "docs/quest/evidence/final-consumed-q604-protocol.json"
     },
     {
       "path": "docs/quest/evidence/final-consumed-q604-rubrics.json",
       "originalSha256": "b3d34838269ffad2efc5019a67fc14d378a09e52dcdd097d49f39412900d59e3",
       "submissionSha256": "b3d34838269ffad2efc5019a67fc14d378a09e52dcdd097d49f39412900d59e3",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "docs/quest/evidence/final-consumed-q604-rubrics.json"
     },
     {
       "path": "docs/quest/evidence/final-export-manifest.json",
       "originalSha256": "35cf7768c0f6498d50ff30e72a2dca78f9f3c755517cfc50d929191aeaf9fd68",
-      "submissionSha256": "f48b05fea4e56dd43b8b532543c22fe018d4af8c732e1783f449c25893c4d6d8",
-      "transformation": "submission-rule content exclusion, metadata export or documentation update"
+      "submissionSha256": "69558c56656445e16e4ea8968e7bbd65f5f8ee119e587d55a04c5d91a0ebd6f6",
+      "transformation": "submission-rule content exclusion, metadata export or documentation update",
+      "sourcePath": "docs/quest/evidence/final-export-manifest.json"
     },
     {
       "path": "docs/quest/evidence/final-gate.json",
       "originalSha256": "7e1a28014f184b775616d669838b71ce4c8400f4c97aa64a3049250b151e602c",
       "submissionSha256": "7e1a28014f184b775616d669838b71ce4c8400f4c97aa64a3049250b151e602c",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "docs/quest/evidence/final-gate.json"
     },
     {
       "path": "docs/quest/evidence/final-original-hashes.json",
       "originalSha256": "864cfaf60a1c659b2b151609e75f1828ed3131e9e2592b9d137dae9f09cde660",
       "submissionSha256": "864cfaf60a1c659b2b151609e75f1828ed3131e9e2592b9d137dae9f09cde660",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "docs/quest/evidence/final-original-hashes.json"
     },
     {
       "path": "docs/quest/evidence/final-q606-case-manifest.json",
@@ -198,19 +226,22 @@
       "path": "docs/quest/evidence/final-q606-protocol.json",
       "originalSha256": "1268e40b54f2fbb4f7e68c321934f5bd96ecc14933093a9519799cb5e8516858",
       "submissionSha256": "1268e40b54f2fbb4f7e68c321934f5bd96ecc14933093a9519799cb5e8516858",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "docs/quest/evidence/final-q606-protocol.json"
     },
     {
       "path": "docs/quest/evidence/final-q606-rubrics.json",
       "originalSha256": "ba80c71e819092586d6a578bd18a2325e504b1ba95b3de0d3ffdc0e16db4da3b",
       "submissionSha256": "ba80c71e819092586d6a578bd18a2325e504b1ba95b3de0d3ffdc0e16db4da3b",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "docs/quest/evidence/final-q606-rubrics.json"
     },
     {
       "path": "docs/quest/evidence/final-source-manifests.json",
       "originalSha256": "0b05ae9a0879c25969e842656457d7b46cd569db4864250fc6bba3f686129060",
       "submissionSha256": "0b05ae9a0879c25969e842656457d7b46cd569db4864250fc6bba3f686129060",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "docs/quest/evidence/final-source-manifests.json"
     },
     {
       "path": "docs/quest/evidence/final-v6-metrics.json",
@@ -223,7 +254,8 @@
       "path": "docs/quest/evidence/final-validation.json",
       "originalSha256": "283755060bbeab1d0c55d9b090b8183d515ef9549e64db08dc8f716914a4f4a0",
       "submissionSha256": "283755060bbeab1d0c55d9b090b8183d515ef9549e64db08dc8f716914a4f4a0",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "docs/quest/evidence/final-validation.json"
     },
     {
       "path": "docs/quest/evidence/q610-case-manifest.json",
@@ -236,1208 +268,1410 @@
       "path": "docs/quest/evidence/q610-comparison.csv",
       "originalSha256": "acfbef5330138afe010f65183e945c56611eb0bc7835e6006081598065ecf76a",
       "submissionSha256": "acfbef5330138afe010f65183e945c56611eb0bc7835e6006081598065ecf76a",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "docs/quest/evidence/q610-comparison.csv"
     },
     {
       "path": "docs/quest/evidence/q610-comparison.json",
       "originalSha256": "859d2545a1ee9839e5e0a19e9cec9646bcc38302bbbe045b22c16611bf1d883b",
       "submissionSha256": "859d2545a1ee9839e5e0a19e9cec9646bcc38302bbbe045b22c16611bf1d883b",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "docs/quest/evidence/q610-comparison.json"
     },
     {
       "path": "docs/quest/evidence/q610-export-hashes.json",
       "originalSha256": "7487295c50f37dddbfab6a22e844418b12d58253d2b98342efe21f09e40f45ea",
       "submissionSha256": "0ddd9a20dde6affce52026d8106bab3bd8f7cc310d54aeeadac48f9d1aa1b883",
-      "transformation": "submission-rule content exclusion, metadata export or documentation update"
+      "transformation": "submission-rule content exclusion, metadata export or documentation update",
+      "sourcePath": "docs/quest/evidence/q610-export-hashes.json"
     },
     {
       "path": "docs/quest/evidence/q610-source-manifests.json",
       "originalSha256": "4cd5167464b326c6f639d1f8e5adfb1b78876c126df057b45e2fdc1d2d279458",
       "submissionSha256": "4cd5167464b326c6f639d1f8e5adfb1b78876c126df057b45e2fdc1d2d279458",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "docs/quest/evidence/q610-source-manifests.json"
     },
     {
       "path": "docs/quest/evidence/review-deployment.json",
       "originalSha256": "f85abbbbdfa4f54762d2cc6650df29ae2ef0d9f12e915240b31030f5b806a111",
       "submissionSha256": "f85abbbbdfa4f54762d2cc6650df29ae2ef0d9f12e915240b31030f5b806a111",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "docs/quest/evidence/review-deployment.json"
     },
     {
       "path": "docs/quest/evidence/reviewed-smoke.json",
       "originalSha256": "ae61477ff17780c2a6f37c9545c85e13e59b3d56d521c52d2a9528779bc30efc",
       "submissionSha256": "ffb75420a903ca4ae62406b6a3fcc64ee8419c0d63eb1e82581e782d70997ca2",
-      "transformation": "submission-rule content exclusion, metadata export or documentation update"
+      "transformation": "submission-rule content exclusion, metadata export or documentation update",
+      "sourcePath": "docs/quest/evidence/reviewed-smoke.json"
     },
     {
       "path": "docs/quest/evidence/runtime-review.json",
       "originalSha256": "968ce1e4978797464470e17658d7be114e0ee32bdcf5286220951d86753a7ff5",
       "submissionSha256": "968ce1e4978797464470e17658d7be114e0ee32bdcf5286220951d86753a7ff5",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "docs/quest/evidence/runtime-review.json"
     },
     {
       "path": "docs/quest/evidence/screenshots/baseline-authenticated-form.png",
       "originalSha256": "994f34724e8dd3ddabd600211b420804c63e6591b6888a8b9ea470b72e61a481",
       "submissionSha256": "994f34724e8dd3ddabd600211b420804c63e6591b6888a8b9ea470b72e61a481",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "docs/quest/evidence/screenshots/baseline-authenticated-form.png"
     },
     {
       "path": "docs/quest/evidence/screenshots/baseline-live-unavailable.png",
       "originalSha256": "e6bb572aee3ae878326a2c3301d0bdd549700da8e97b7def42ec9a0f7aadff4a",
       "submissionSha256": "e6bb572aee3ae878326a2c3301d0bdd549700da8e97b7def42ec9a0f7aadff4a",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "docs/quest/evidence/screenshots/baseline-live-unavailable.png"
     },
     {
       "path": "docs/quest/evidence/screenshots/candidate-live-ok.png",
       "originalSha256": "24d91da3df9b09ad214d622a40061c15bbd4f4e842ee30555ec4103e12540755",
       "submissionSha256": "24d91da3df9b09ad214d622a40061c15bbd4f4e842ee30555ec4103e12540755",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "docs/quest/evidence/screenshots/candidate-live-ok.png"
     },
     {
       "path": "docs/quest/evidence/screenshots/citation-compact-mobile.png",
       "originalSha256": "13af1f83932dd1e9911ebacc97da085cd6d1d94a6041a8857fa11bffd5447805",
       "submissionSha256": "13af1f83932dd1e9911ebacc97da085cd6d1d94a6041a8857fa11bffd5447805",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "docs/quest/evidence/screenshots/citation-compact-mobile.png"
     },
     {
       "path": "docs/quest/evidence/screenshots/citation-source-dialog-mobile.png",
       "originalSha256": "8bda30585b0b21e38a0b17335bf0443f7967381dea0c3a08d7ee7ce7594c1062",
       "submissionSha256": "8bda30585b0b21e38a0b17335bf0443f7967381dea0c3a08d7ee7ce7594c1062",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "docs/quest/evidence/screenshots/citation-source-dialog-mobile.png"
     },
     {
       "path": "docs/quest/evidence/screenshots/reviewed-citation-close-focus.png",
       "originalSha256": "bcbbbf176049a845415d5861b3f180e920581f63276d31dc1ce95cff111cb6a2",
       "submissionSha256": "bcbbbf176049a845415d5861b3f180e920581f63276d31dc1ce95cff111cb6a2",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "docs/quest/evidence/screenshots/reviewed-citation-close-focus.png"
     },
     {
       "path": "docs/quest/evidence/screenshots/reviewed-live-ok.png",
       "originalSha256": "5f62f8297b6b388968cad0494e1593ea957d61ba7762805c0d810addc917d960",
       "submissionSha256": "5f62f8297b6b388968cad0494e1593ea957d61ba7762805c0d810addc917d960",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "docs/quest/evidence/screenshots/reviewed-live-ok.png"
     },
     {
       "path": "docs/quest/feedback-delivery.md",
       "originalSha256": "db49d143b0b3a3b3e414027f113226c97c2f65a1777bbbdae64e11cb7da0a2b4",
       "submissionSha256": "ba595e856bb015948240b56d8ec8e8b6cc9bfbc43824285b6b8a5c52708bae55",
-      "transformation": "submission-rule content exclusion, metadata export or documentation update"
+      "transformation": "submission-rule content exclusion, metadata export or documentation update",
+      "sourcePath": "docs/quest/feedback-delivery.md"
     },
     {
       "path": "docs/quest/feedback-deployment-source-hashes.json",
       "originalSha256": "e67284e1abcefacc8260d985bce0c441212825fc12fc9a87dcd0e989befeef52",
       "submissionSha256": "e67284e1abcefacc8260d985bce0c441212825fc12fc9a87dcd0e989befeef52",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "docs/quest/feedback-deployment-source-hashes.json"
     },
     {
       "path": "docs/quest/final-review.md",
       "originalSha256": "4f2d4d35327518920730df361eeda411cebaca09d7225d627cb1e83b55a73063",
       "submissionSha256": "a98d689fe38f82c7107aaaf83f3932d439ed0e55728543c0214c5f135aca6bcd",
-      "transformation": "submission-rule content exclusion, metadata export or documentation update"
+      "transformation": "submission-rule content exclusion, metadata export or documentation update",
+      "sourcePath": "docs/quest/final-review.md"
     },
     {
       "path": "docs/quest/final-validation.md",
       "originalSha256": "7a653e576cc35c97bf3eab7ba510a9e991f41757a67a32ae1f5eb0006b5427ce",
       "submissionSha256": "110536b4341694fabed039a33e2d44d3c3a7102998ff5027707aa1d0484f77fd",
-      "transformation": "submission-rule content exclusion, metadata export or documentation update"
+      "transformation": "submission-rule content exclusion, metadata export or documentation update",
+      "sourcePath": "docs/quest/final-validation.md"
     },
     {
       "path": "docs/quest/live-baseline-analysis.md",
       "originalSha256": "70b9c774e02485dee40afdc1bc272a28542b1829fb88a299b27ab0e4f81c712e",
       "submissionSha256": "744c1bba1059f655a73f36e6e87c9faa2c53f4eaba24609e1b456cc35e488876",
-      "transformation": "submission-rule content exclusion, metadata export or documentation update"
+      "transformation": "submission-rule content exclusion, metadata export or documentation update",
+      "sourcePath": "docs/quest/live-baseline-analysis.md"
     },
     {
       "path": "docs/quest/publication-verification.md",
       "originalSha256": "4675bbb5ebb0e98b59c0d618cdd93a0692b8d4a7f0b136f42507b59e7be04477",
       "submissionSha256": "923c43d88e58637370465ac9fcddbbd112e6f639a472cdb1f95b02cac9ed45b4",
-      "transformation": "submission-rule content exclusion, metadata export or documentation update"
+      "transformation": "submission-rule content exclusion, metadata export or documentation update",
+      "sourcePath": "docs/quest/publication-verification.md"
     },
     {
       "path": "docs/quest/q604-v3-development-evidence.csv",
       "originalSha256": "735190797b22b218aa1b0bf2d70405b562efcf4a8298acd059a85ee8888d338a",
       "submissionSha256": "735190797b22b218aa1b0bf2d70405b562efcf4a8298acd059a85ee8888d338a",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "docs/quest/q604-v3-development-evidence.csv"
     },
     {
       "path": "docs/quest/q604-v4-development-evidence.csv",
       "originalSha256": "a09169f2a63de281bf58ff6a1fbaa8ae798a267846991a1f28b6bdee2a46d53a",
       "submissionSha256": "a09169f2a63de281bf58ff6a1fbaa8ae798a267846991a1f28b6bdee2a46d53a",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "docs/quest/q604-v4-development-evidence.csv"
     },
     {
       "path": "docs/quest/q604-v5-development-evidence.csv",
       "originalSha256": "1bc76dc196518268043e8507d6f8879f5699d55e538a66d80df652875c80b5df",
       "submissionSha256": "1bc76dc196518268043e8507d6f8879f5699d55e538a66d80df652875c80b5df",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "docs/quest/q604-v5-development-evidence.csv"
     },
     {
       "path": "docs/quest/q604-v5-holdout-evidence.csv",
       "originalSha256": "b3301a1edeb6e3dfaa3570dbff0ccceb1532a128fac3de62cf2a108ba8a36bf2",
       "submissionSha256": "b3301a1edeb6e3dfaa3570dbff0ccceb1532a128fac3de62cf2a108ba8a36bf2",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "docs/quest/q604-v5-holdout-evidence.csv"
     },
     {
       "path": "docs/quest/q604-v6-development-evidence.csv",
       "originalSha256": "62f7d564b952c553bce4305c6b1a9c23c838357b58b82cc09d47c1e697331e1b",
       "submissionSha256": "62f7d564b952c553bce4305c6b1a9c23c838357b58b82cc09d47c1e697331e1b",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "docs/quest/q604-v6-development-evidence.csv"
     },
     {
       "path": "docs/quest/q604-v6-holdout-evidence.csv",
       "originalSha256": "c334ebbc6c5d40bbe5b6fb76f336357e443d8b319a6908a9abd928e9e59f8da8",
       "submissionSha256": "c334ebbc6c5d40bbe5b6fb76f336357e443d8b319a6908a9abd928e9e59f8da8",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "docs/quest/q604-v6-holdout-evidence.csv"
     },
     {
       "path": "docs/quest/review-code-followup.md",
       "originalSha256": "aa217a6825226794818ac5889682bf04c4fdd7473706709e0d841c507b8d5741",
       "submissionSha256": "aa217a6825226794818ac5889682bf04c4fdd7473706709e0d841c507b8d5741",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "docs/quest/review-code-followup.md"
     },
     {
       "path": "docs/quest/review-deployment.md",
       "originalSha256": "530040684789e7f1a3781fe02fc77cca37fdb9a4fd9195001cd686922992e86a",
       "submissionSha256": "530040684789e7f1a3781fe02fc77cca37fdb9a4fd9195001cd686922992e86a",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "docs/quest/review-deployment.md"
     },
     {
       "path": "docs/quest/review-reconciliation.md",
       "originalSha256": "d99c5a78f965b2e4a47fbcab4e232fd6003f970ef128e301bd2bec8e5a3cf796",
-      "submissionSha256": "d0227ee8d1f1c4adc1f84f87260fe9e6ba856692b3784bf87f2845fae705cc94",
-      "transformation": "submission-rule content exclusion, metadata export or documentation update"
+      "submissionSha256": "97965eb495aafdc942aecd02f335005cf522da7b370e1ee12f6c38c79ec5ad13",
+      "transformation": "submission-rule content exclusion, metadata export or documentation update",
+      "sourcePath": "docs/quest/review-reconciliation.md"
     },
     {
       "path": "docs/quest/review/index.html",
       "originalSha256": "557f808c5b6346dbba154499ffe8376d795c5cbe0e08b837a86d9a5623a456e5",
-      "submissionSha256": "b74bc4a35c4797572a58fef0c5af1f4bb559b8f920794a9a5d82993e786530fd",
-      "transformation": "submission-rule content exclusion, metadata export or documentation update"
+      "submissionSha256": "a24365b2e6a1fcad875db5db4e1e817b037693378762a882352ea45a14fc9815",
+      "transformation": "submission-rule content exclusion, metadata export or documentation update",
+      "sourcePath": "docs/quest/review/index.html"
     },
     {
       "path": "docs/quest/reviewed-live-verification.md",
       "originalSha256": "83cce90897444e971a510cfe0e2aae07e9f0cd667b8cf8177cd71bad8627dec1",
       "submissionSha256": "83cce90897444e971a510cfe0e2aae07e9f0cd667b8cf8177cd71bad8627dec1",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "docs/quest/reviewed-live-verification.md"
     },
     {
       "path": "docs/quest/runtime-review.md",
       "originalSha256": "a0d3e31b08ee9b6141a0d2a580d2e7ecf7f386d9f822ad137325bcb63c16afbb",
       "submissionSha256": "a0d3e31b08ee9b6141a0d2a580d2e7ecf7f386d9f822ad137325bcb63c16afbb",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "docs/quest/runtime-review.md"
     },
     {
       "path": "docs/quest/submission-gap-audit.md",
       "originalSha256": "38ca237416bbb9c4b80cbf365ca63bf4abc3d3e1c33e80a1052194508306e771",
       "submissionSha256": "c86435f446a45aabf4c6ddb733e3a89f9d6a435f18038a312182ab58909b688a",
-      "transformation": "submission-rule content exclusion, metadata export or documentation update"
+      "transformation": "submission-rule content exclusion, metadata export or documentation update",
+      "sourcePath": "docs/quest/submission-gap-audit.md"
     },
     {
       "path": "docs/quest/v3-contract-experiment.md",
       "originalSha256": "9eca1d31101b792d5166d0b9d723b1cb53dd0a1802d23c1d15114034d4304a1c",
       "submissionSha256": "6519c366b610cff87a833c421d1935a62f3dbb049300792000bcab0e1643642d",
-      "transformation": "submission-rule content exclusion, metadata export or documentation update"
+      "transformation": "submission-rule content exclusion, metadata export or documentation update",
+      "sourcePath": "docs/quest/v3-contract-experiment.md"
     },
     {
       "path": "docs/quest/v3-contract-source-hashes.json",
       "originalSha256": "81e2cb6f2ada528d45234d7a48fe4075e8122c751d64416a1de87ed2c59fe06e",
       "submissionSha256": "81e2cb6f2ada528d45234d7a48fe4075e8122c751d64416a1de87ed2c59fe06e",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "docs/quest/v3-contract-source-hashes.json"
     },
     {
       "path": "docs/quest/v3-live-evaluation.md",
       "originalSha256": "f9c5687aa66d8d4feeb060ee11a06fe6032d2c4aa1ad3f6e775c83fb6a459215",
       "submissionSha256": "b443992c9a419aa1551f9e75fc1af497b7c63c467107b824d12051282cb215e6",
-      "transformation": "submission-rule content exclusion, metadata export or documentation update"
+      "transformation": "submission-rule content exclusion, metadata export or documentation update",
+      "sourcePath": "docs/quest/v3-live-evaluation.md"
     },
     {
       "path": "docs/quest/v4-live-evaluation.md",
       "originalSha256": "2189dc09a534f79010148de582427441a382e767d4bddf21a1aeaff563ab7936",
       "submissionSha256": "759ed0155a214a2a2a4ecf887a8222cba767625653808666514aaccc4bb1b417",
-      "transformation": "submission-rule content exclusion, metadata export or documentation update"
+      "transformation": "submission-rule content exclusion, metadata export or documentation update",
+      "sourcePath": "docs/quest/v4-live-evaluation.md"
     },
     {
       "path": "docs/quest/v4-output-experiment.md",
       "originalSha256": "0c90ccc43ef62c74823d52df0053feab6b99b70ff8648bf0c8923cd6b1dec20b",
       "submissionSha256": "3e499ad6a5d9d2af75deb71747d21d464d734cc3989a2a2396a1e4cf2306e392",
-      "transformation": "submission-rule content exclusion, metadata export or documentation update"
+      "transformation": "submission-rule content exclusion, metadata export or documentation update",
+      "sourcePath": "docs/quest/v4-output-experiment.md"
     },
     {
       "path": "docs/quest/v5-live-evaluation.md",
       "originalSha256": "cc5a156dd636f88db792b12a6c778b70946f58726ef282b9329c112b746dae35",
       "submissionSha256": "e0de68f2b90a06679301f06a016cf8cfa4e5d83c1d51908f59f11e13d6ffcd86",
-      "transformation": "submission-rule content exclusion, metadata export or documentation update"
+      "transformation": "submission-rule content exclusion, metadata export or documentation update",
+      "sourcePath": "docs/quest/v5-live-evaluation.md"
     },
     {
       "path": "docs/quest/v5-partial-evidence-experiment.md",
       "originalSha256": "f6e8b193a50511669a626476fc5074b53f116e2b4a71c193f3b283902028c36b",
       "submissionSha256": "f6e8b193a50511669a626476fc5074b53f116e2b4a71c193f3b283902028c36b",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "docs/quest/v5-partial-evidence-experiment.md"
     },
     {
       "path": "docs/quest/v6-live-evaluation.md",
       "originalSha256": "d320858e2b74c7bd1a64e976b1e6f5418ed310be4d48aacb18a029f5a2e8c4a1",
       "submissionSha256": "25a556737f89bb57e208aee39f0b15ef04be95d2708b79d9003403d6d65e1b8f",
-      "transformation": "submission-rule content exclusion, metadata export or documentation update"
+      "transformation": "submission-rule content exclusion, metadata export or documentation update",
+      "sourcePath": "docs/quest/v6-live-evaluation.md"
     },
     {
       "path": "docs/quest/v6-temporal-notice-experiment.md",
       "originalSha256": "b6d1f26c46682a135bfc0445cd12f68dff94d44f4bf06e4c9968490dde2295f8",
       "submissionSha256": "b6d1f26c46682a135bfc0445cd12f68dff94d44f4bf06e4c9968490dde2295f8",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "docs/quest/v6-temporal-notice-experiment.md"
     },
     {
       "path": "docs/quest/validation.md",
       "originalSha256": "b11ea402e35162cfa0b42da3c5cf10137ebdebdab27d1e84ea49e7f52fbe882a",
       "submissionSha256": "2ad155f74508c5141d9047e36bfafae35cd8c21e1d934b3934a5066194601c80",
-      "transformation": "submission-rule content exclusion, metadata export or documentation update"
+      "transformation": "submission-rule content exclusion, metadata export or documentation update",
+      "sourcePath": "docs/quest/validation.md"
     },
     {
       "path": "docs/quest/vertex-ai.md",
       "originalSha256": "ca73adada862cc4a68168d7f6c34c6455d8ac30a99d3ec8dd3e300351ee72f7e",
       "submissionSha256": "2f4e0f66ad449c4b0073c4abf824704a524e11682f8b75b499b6b2a539324f6e",
-      "transformation": "submission-rule content exclusion, metadata export or documentation update"
+      "transformation": "submission-rule content exclusion, metadata export or documentation update",
+      "sourcePath": "docs/quest/vertex-ai.md"
     },
     {
-      "path": "eslint.config.mjs",
+      "path": "service/eslint.config.mjs",
       "originalSha256": "e496ed7dc4b7b1c7053790076683c3378e2e29cbe898f3d90f801c3f8ad3b441",
       "submissionSha256": "e496ed7dc4b7b1c7053790076683c3378e2e29cbe898f3d90f801c3f8ad3b441",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "eslint.config.mjs"
     },
     {
-      "path": "next.config.ts",
+      "path": "service/next.config.ts",
       "originalSha256": "6f2d1d43bf0e900fefac6e605ded19b95c932740ac98d0c904a5697e2153fbfd",
       "submissionSha256": "6f2d1d43bf0e900fefac6e605ded19b95c932740ac98d0c904a5697e2153fbfd",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "next.config.ts"
     },
     {
-      "path": "package-lock.json",
+      "path": "service/package-lock.json",
       "originalSha256": "cffb6387e98cbd2f8a37a6e5be382411e8c2ce28aa3aea26d4daa0ab21eeedbd",
       "submissionSha256": "cffb6387e98cbd2f8a37a6e5be382411e8c2ce28aa3aea26d4daa0ab21eeedbd",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "package-lock.json"
     },
     {
-      "path": "package.json",
+      "path": "service/package.json",
       "originalSha256": "5167b464c19b5863eedb6fc173b900aca85c9ed68d7770349fcfa1e277a4b713",
       "submissionSha256": "5167b464c19b5863eedb6fc173b900aca85c9ed68d7770349fcfa1e277a4b713",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "package.json"
     },
     {
-      "path": "postcss.config.mjs",
+      "path": "service/postcss.config.mjs",
       "originalSha256": "7b299d3d3b16699ddda397c0b2373b3af4f25f8fc9ccc9b3d9e64ef083bc1c21",
       "submissionSha256": "7b299d3d3b16699ddda397c0b2373b3af4f25f8fc9ccc9b3d9e64ef083bc1c21",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "postcss.config.mjs"
     },
     {
-      "path": "public/file.svg",
+      "path": "service/public/file.svg",
       "originalSha256": "2b67812c325c199a02536cdbeea0c593a72f707d323b72ee3e08dbab06753bd4",
       "submissionSha256": "2b67812c325c199a02536cdbeea0c593a72f707d323b72ee3e08dbab06753bd4",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "public/file.svg"
     },
     {
-      "path": "public/globe.svg",
+      "path": "service/public/globe.svg",
       "originalSha256": "b614b9bf183925957661ac851498fe1d8029fd43a62fbfed86f9e2624a57e7cf",
       "submissionSha256": "b614b9bf183925957661ac851498fe1d8029fd43a62fbfed86f9e2624a57e7cf",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "public/globe.svg"
     },
     {
-      "path": "public/logo.png",
+      "path": "service/public/logo.png",
       "originalSha256": "2a6105e5edbfd9250b6a6360b754ab1cc2662e63af88ee44ffb15273cd94116c",
       "submissionSha256": "2a6105e5edbfd9250b6a6360b754ab1cc2662e63af88ee44ffb15273cd94116c",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "public/logo.png"
     },
     {
-      "path": "public/next.svg",
+      "path": "service/public/next.svg",
       "originalSha256": "55995dfad6ecb4945a1e856ddca03c5e16aa5bf13fd21b4df6a74ae79357bcfc",
       "submissionSha256": "55995dfad6ecb4945a1e856ddca03c5e16aa5bf13fd21b4df6a74ae79357bcfc",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "public/next.svg"
     },
     {
-      "path": "public/vercel.svg",
+      "path": "service/public/vercel.svg",
       "originalSha256": "f081337b2fee635b455b63275406a3e7f39d6a014e25ad90dab5a67e62a12ac4",
       "submissionSha256": "f081337b2fee635b455b63275406a3e7f39d6a014e25ad90dab5a67e62a12ac4",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "public/vercel.svg"
     },
     {
-      "path": "public/window.svg",
+      "path": "service/public/window.svg",
       "originalSha256": "644768c4aaeb4767bce293344eeb0c125fb804a94d801440424072202d85e3a1",
       "submissionSha256": "644768c4aaeb4767bce293344eeb0c125fb804a94d801440424072202d85e3a1",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "public/window.svg"
     },
     {
-      "path": "scripts/briefing-anthropic-check.cjs",
+      "path": "service/scripts/briefing-anthropic-check.cjs",
       "originalSha256": "8dca32e37b2274addc723ad9430fc00eddbd79a2de6179e0d7f42d39965f537a",
       "submissionSha256": "8dca32e37b2274addc723ad9430fc00eddbd79a2de6179e0d7f42d39965f537a",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "scripts/briefing-anthropic-check.cjs"
     },
     {
-      "path": "scripts/briefing-check.cjs",
+      "path": "service/scripts/briefing-check.cjs",
       "originalSha256": "99c48c9f848df9ea479712c393bd15ac5bd0e07174555b87277f986cc954976b",
       "submissionSha256": "99c48c9f848df9ea479712c393bd15ac5bd0e07174555b87277f986cc954976b",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "scripts/briefing-check.cjs"
     },
     {
-      "path": "scripts/briefing-feedback-delivery-check.cjs",
+      "path": "service/scripts/briefing-feedback-delivery-check.cjs",
       "originalSha256": "f4e331f2b3b75aa270b585d74ea388c80a7be72d240b5ef95d70eaa2ed2ba029",
       "submissionSha256": "f4e331f2b3b75aa270b585d74ea388c80a7be72d240b5ef95d70eaa2ed2ba029",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "scripts/briefing-feedback-delivery-check.cjs"
     },
     {
-      "path": "scripts/briefing-integration-check.cjs",
+      "path": "service/scripts/briefing-integration-check.cjs",
       "originalSha256": "e6b09e4bb69ad10874765b54e58ee31997e038de775bf2f5b2ec50a9b6e95d8f",
       "submissionSha256": "e6b09e4bb69ad10874765b54e58ee31997e038de775bf2f5b2ec50a9b6e95d8f",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "scripts/briefing-integration-check.cjs"
     },
     {
-      "path": "scripts/briefing-telemetry-check.cjs",
+      "path": "service/scripts/briefing-telemetry-check.cjs",
       "originalSha256": "5de1407749df3d857866d892a58e8a469b00774f03af01e40f55f3c022a63ac7",
       "submissionSha256": "5de1407749df3d857866d892a58e8a469b00774f03af01e40f55f3c022a63ac7",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "scripts/briefing-telemetry-check.cjs"
     },
     {
-      "path": "scripts/briefing-v3-check.cjs",
+      "path": "service/scripts/briefing-v3-check.cjs",
       "originalSha256": "37c01b8ff34f5674113896904f57ba30c4b8cee61889b5318c4d4fbcb8776300",
       "submissionSha256": "37c01b8ff34f5674113896904f57ba30c4b8cee61889b5318c4d4fbcb8776300",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "scripts/briefing-v3-check.cjs"
     },
     {
-      "path": "scripts/briefing-v4-check.cjs",
+      "path": "service/scripts/briefing-v4-check.cjs",
       "originalSha256": "58cabc614327cd3ceb2ca1b55dcb66fcf9c57e95b14eb4d0d44e458b77a9f155",
       "submissionSha256": "58cabc614327cd3ceb2ca1b55dcb66fcf9c57e95b14eb4d0d44e458b77a9f155",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "scripts/briefing-v4-check.cjs"
     },
     {
-      "path": "scripts/briefing-v5-check.cjs",
+      "path": "service/scripts/briefing-v5-check.cjs",
       "originalSha256": "b27da5c01a2574d55b437a91bc9580f576f25ccdfa5602e20bc1b3aaceb0fc63",
       "submissionSha256": "b27da5c01a2574d55b437a91bc9580f576f25ccdfa5602e20bc1b3aaceb0fc63",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "scripts/briefing-v5-check.cjs"
     },
     {
-      "path": "scripts/briefing-v6-check.cjs",
+      "path": "service/scripts/briefing-v6-check.cjs",
       "originalSha256": "8cac7ff16f06ae6369c691deb2fe9ced814e2cff140f6d4f11cb05260ef4bdb7",
       "submissionSha256": "8cac7ff16f06ae6369c691deb2fe9ced814e2cff140f6d4f11cb05260ef4bdb7",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "scripts/briefing-v6-check.cjs"
     },
     {
-      "path": "scripts/briefing-vertex-check.cjs",
+      "path": "service/scripts/briefing-vertex-check.cjs",
       "originalSha256": "10579f081f9d6e06ba70652d7da44820f2e2f01e334d678b5700776f67fb11ec",
       "submissionSha256": "10579f081f9d6e06ba70652d7da44820f2e2f01e334d678b5700776f67fb11ec",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "scripts/briefing-vertex-check.cjs"
     },
     {
-      "path": "scripts/cloud-run/auth-redirect-check.cjs",
+      "path": "service/scripts/cloud-run/auth-redirect-check.cjs",
       "originalSha256": "2470c93233408fdca1c22d5f2a287377c409138b023182bb7c7a05c0f78a43fc",
       "submissionSha256": "2470c93233408fdca1c22d5f2a287377c409138b023182bb7c7a05c0f78a43fc",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "scripts/cloud-run/auth-redirect-check.cjs"
     },
     {
-      "path": "scripts/cloud-run/build.mjs",
+      "path": "service/scripts/cloud-run/build.mjs",
       "originalSha256": "c4ac80dc6d098943a734663e6d81793ce8dc2bb28d45873e7bcce3e3adbc8461",
       "submissionSha256": "c4ac80dc6d098943a734663e6d81793ce8dc2bb28d45873e7bcce3e3adbc8461",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "scripts/cloud-run/build.mjs"
     },
     {
-      "path": "scripts/cloud-run/common.mjs",
+      "path": "service/scripts/cloud-run/common.mjs",
       "originalSha256": "76388f58b786cc34c392dec22a732be3a7a69a7794ce5264893efcad85994264",
       "submissionSha256": "76388f58b786cc34c392dec22a732be3a7a69a7794ce5264893efcad85994264",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "scripts/cloud-run/common.mjs"
     },
     {
-      "path": "scripts/cloud-run/config.example.json",
+      "path": "service/scripts/cloud-run/config.example.json",
       "originalSha256": "018f3a9a60ab855ae3a796dd64cf7ca304898c9e072f581279660edc9a2a7c94",
       "submissionSha256": "018f3a9a60ab855ae3a796dd64cf7ca304898c9e072f581279660edc9a2a7c94",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "scripts/cloud-run/config.example.json"
     },
     {
-      "path": "scripts/cloud-run/deploy.mjs",
+      "path": "service/scripts/cloud-run/deploy.mjs",
       "originalSha256": "c88d907f012790f190954444976e3026bf6bc2e50bc4545bbb1015a36624249b",
       "submissionSha256": "c88d907f012790f190954444976e3026bf6bc2e50bc4545bbb1015a36624249b",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "scripts/cloud-run/deploy.mjs"
     },
     {
-      "path": "scripts/cloud-run/origin-check.cjs",
+      "path": "service/scripts/cloud-run/origin-check.cjs",
       "originalSha256": "3b2f5297dd0b2b0c77d362d9587b43ea1e48fb3b1b28f132ac96755d53cf2324",
       "submissionSha256": "3b2f5297dd0b2b0c77d362d9587b43ea1e48fb3b1b28f132ac96755d53cf2324",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "scripts/cloud-run/origin-check.cjs"
     },
     {
-      "path": "scripts/cloud-run/origin-smoke.mjs",
+      "path": "service/scripts/cloud-run/origin-smoke.mjs",
       "originalSha256": "1cc5ed9c0f0cdacae36cdbfe5c275db671b1d21064b479972b4de44bcc67a50b",
       "submissionSha256": "1cc5ed9c0f0cdacae36cdbfe5c275db671b1d21064b479972b4de44bcc67a50b",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "scripts/cloud-run/origin-smoke.mjs"
     },
     {
-      "path": "scripts/dependency-compatibility-check.cjs",
+      "path": "service/scripts/dependency-compatibility-check.cjs",
       "originalSha256": "b424e86ed66f0992cb14527afb2731de5b2aa465cc105af27fb2d2920cc74aa3",
       "submissionSha256": "b424e86ed66f0992cb14527afb2731de5b2aa465cc105af27fb2d2920cc74aa3",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "scripts/dependency-compatibility-check.cjs"
     },
     {
-      "path": "scripts/review-ui-check.cjs",
+      "path": "service/scripts/review-ui-check.cjs",
       "originalSha256": "79060510ea721a2d63e8a0a3ca96c935ebe12eb02f156818c901a6ab777eb3ec",
       "submissionSha256": "79060510ea721a2d63e8a0a3ca96c935ebe12eb02f156818c901a6ab777eb3ec",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "scripts/review-ui-check.cjs"
     },
     {
-      "path": "src/app/api/briefing/feedback/route.ts",
+      "path": "service/src/app/api/briefing/feedback/route.ts",
       "originalSha256": "a237ed8705f3a88ee2530ac1adeb6b7f19796383b965f5cd8c823a62904ade69",
       "submissionSha256": "a237ed8705f3a88ee2530ac1adeb6b7f19796383b965f5cd8c823a62904ade69",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/app/api/briefing/feedback/route.ts"
     },
     {
-      "path": "src/app/api/briefing/route.ts",
+      "path": "service/src/app/api/briefing/route.ts",
       "originalSha256": "bad6dceb3b78b92fa7d6b6b99c232142f4bb51beaf4bbe1800215c04ddf446ce",
       "submissionSha256": "bad6dceb3b78b92fa7d6b6b99c232142f4bb51beaf4bbe1800215c04ddf446ce",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/app/api/briefing/route.ts"
     },
     {
-      "path": "src/app/api/cron/feed/route.ts",
+      "path": "service/src/app/api/cron/feed/route.ts",
       "originalSha256": "9592bd6aacf8ab3979b8e6b59f08cf9c2e5d9293c634b2f8717f2726e94f2ba6",
       "submissionSha256": "9592bd6aacf8ab3979b8e6b59f08cf9c2e5d9293c634b2f8717f2726e94f2ba6",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/app/api/cron/feed/route.ts"
     },
     {
-      "path": "src/app/api/cron/snapshot/route.ts",
+      "path": "service/src/app/api/cron/snapshot/route.ts",
       "originalSha256": "72d6feeee5db6b4229b35a7795ee6a61ef42922c91eb769c0c2ddd18e63d6f07",
       "submissionSha256": "72d6feeee5db6b4229b35a7795ee6a61ef42922c91eb769c0c2ddd18e63d6f07",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/app/api/cron/snapshot/route.ts"
     },
     {
-      "path": "src/app/api/game/feed/route.ts",
+      "path": "service/src/app/api/game/feed/route.ts",
       "originalSha256": "396e47078ddc4f78495f08192aa2407c6ae83a3ce8b7d42e23ea4f7b005df8a1",
       "submissionSha256": "396e47078ddc4f78495f08192aa2407c6ae83a3ce8b7d42e23ea4f7b005df8a1",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/app/api/game/feed/route.ts"
     },
     {
-      "path": "src/app/api/game/history/route.ts",
+      "path": "service/src/app/api/game/history/route.ts",
       "originalSha256": "a3992ca8594d63b071b1ce1fde99d362ff927270d84b2a6ee1abad800e74a9bb",
       "submissionSha256": "a3992ca8594d63b071b1ce1fde99d362ff927270d84b2a6ee1abad800e74a9bb",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/app/api/game/history/route.ts"
     },
     {
-      "path": "src/app/api/game/summary/route.ts",
+      "path": "service/src/app/api/game/summary/route.ts",
       "originalSha256": "1bb7543bdbc7434014dfd6c1775c9eb9e04e92acb64f08541549520c490bf2d6",
       "submissionSha256": "1bb7543bdbc7434014dfd6c1775c9eb9e04e92acb64f08541549520c490bf2d6",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/app/api/game/summary/route.ts"
     },
     {
-      "path": "src/app/api/portfolio/summary/route.ts",
+      "path": "service/src/app/api/portfolio/summary/route.ts",
       "originalSha256": "b66f6c54402a74aa1a58fd94c1084499184b42c0e6c2ad3da88e7398b2f3261b",
       "submissionSha256": "b66f6c54402a74aa1a58fd94c1084499184b42c0e6c2ad3da88e7398b2f3261b",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/app/api/portfolio/summary/route.ts"
     },
     {
-      "path": "src/app/api/symbols/search/route.ts",
+      "path": "service/src/app/api/symbols/search/route.ts",
       "originalSha256": "ce62cd97c028b5a125a81a787ecfabaa8d20241864352f5bedfebfabdcb3755a",
       "submissionSha256": "ce62cd97c028b5a125a81a787ecfabaa8d20241864352f5bedfebfabdcb3755a",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/app/api/symbols/search/route.ts"
     },
     {
-      "path": "src/app/auth/confirm/route.ts",
+      "path": "service/src/app/auth/confirm/route.ts",
       "originalSha256": "fe0d76e7117f9eadb0cb857456d5af68df2150f25a923461df48b3ea9983ad78",
       "submissionSha256": "fe0d76e7117f9eadb0cb857456d5af68df2150f25a923461df48b3ea9983ad78",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/app/auth/confirm/route.ts"
     },
     {
-      "path": "src/app/briefing/page.tsx",
+      "path": "service/src/app/briefing/page.tsx",
       "originalSha256": "c41e41e97a9d93a192483e2ed4e2e4a0078d5185872ea947b2cb82d784a89d98",
       "submissionSha256": "c41e41e97a9d93a192483e2ed4e2e4a0078d5185872ea947b2cb82d784a89d98",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/app/briefing/page.tsx"
     },
     {
-      "path": "src/app/dashboard/loading.tsx",
+      "path": "service/src/app/dashboard/loading.tsx",
       "originalSha256": "fd02b1f729911864847f4c865b01bb6465a9ec2ff9fb66d52531efcb3617741d",
       "submissionSha256": "fd02b1f729911864847f4c865b01bb6465a9ec2ff9fb66d52531efcb3617741d",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/app/dashboard/loading.tsx"
     },
     {
-      "path": "src/app/dashboard/page.tsx",
+      "path": "service/src/app/dashboard/page.tsx",
       "originalSha256": "d278cca8cc85edeee12cfc86a8c41260846097071057532fdaaac8d8bf8a4dcc",
       "submissionSha256": "d278cca8cc85edeee12cfc86a8c41260846097071057532fdaaac8d8bf8a4dcc",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/app/dashboard/page.tsx"
     },
     {
-      "path": "src/app/feed/actions.ts",
+      "path": "service/src/app/feed/actions.ts",
       "originalSha256": "0cfebd6ad72a17d567611d2357d696e5db78f23fdb21b8744df4413c81ef0059",
       "submissionSha256": "0cfebd6ad72a17d567611d2357d696e5db78f23fdb21b8744df4413c81ef0059",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/app/feed/actions.ts"
     },
     {
-      "path": "src/app/feed/loading.tsx",
+      "path": "service/src/app/feed/loading.tsx",
       "originalSha256": "71b91f41f9592fca1ffcdf170d2172ff1a800e5b498a18232ba397b09bb8ff05",
       "submissionSha256": "71b91f41f9592fca1ffcdf170d2172ff1a800e5b498a18232ba397b09bb8ff05",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/app/feed/loading.tsx"
     },
     {
-      "path": "src/app/feed/page.tsx",
+      "path": "service/src/app/feed/page.tsx",
       "originalSha256": "a409fc8ea78d3aebdf475903e83a38cbeb8fd5e5a1a9aa39de33346de71f2c11",
       "submissionSha256": "a409fc8ea78d3aebdf475903e83a38cbeb8fd5e5a1a9aa39de33346de71f2c11",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/app/feed/page.tsx"
     },
     {
-      "path": "src/app/forgot-password/page.tsx",
+      "path": "service/src/app/forgot-password/page.tsx",
       "originalSha256": "b80df1f251ed59b73a4a1aefbe9cbe180c766e1fdf50d45218d8be1644215563",
       "submissionSha256": "b80df1f251ed59b73a4a1aefbe9cbe180c766e1fdf50d45218d8be1644215563",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/app/forgot-password/page.tsx"
     },
     {
-      "path": "src/app/globals.css",
+      "path": "service/src/app/globals.css",
       "originalSha256": "1a0cd305a318e3cc56bba00fd12f22edd880e94f9f89efe0b25ad9ae9e440bfc",
       "submissionSha256": "1a0cd305a318e3cc56bba00fd12f22edd880e94f9f89efe0b25ad9ae9e440bfc",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/app/globals.css"
     },
     {
-      "path": "src/app/icon.png",
+      "path": "service/src/app/icon.png",
       "originalSha256": "2a6105e5edbfd9250b6a6360b754ab1cc2662e63af88ee44ffb15273cd94116c",
       "submissionSha256": "2a6105e5edbfd9250b6a6360b754ab1cc2662e63af88ee44ffb15273cd94116c",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/app/icon.png"
     },
     {
-      "path": "src/app/layout.tsx",
+      "path": "service/src/app/layout.tsx",
       "originalSha256": "03cf82d294added391383288145ee18b917a741b029d10dd1730306dba8ffd35",
       "submissionSha256": "03cf82d294added391383288145ee18b917a741b029d10dd1730306dba8ffd35",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/app/layout.tsx"
     },
     {
-      "path": "src/app/login/actions.ts",
+      "path": "service/src/app/login/actions.ts",
       "originalSha256": "dae1659f3a8f618ac0776a3a723d3bdbb8351f98d3f28354796c0eec9a266e6b",
       "submissionSha256": "dae1659f3a8f618ac0776a3a723d3bdbb8351f98d3f28354796c0eec9a266e6b",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/app/login/actions.ts"
     },
     {
-      "path": "src/app/login/page.tsx",
+      "path": "service/src/app/login/page.tsx",
       "originalSha256": "cfe8f11e83cf313fd730fb660d3130f651c418eb4b1474ebe474349d7ceb4769",
       "submissionSha256": "cfe8f11e83cf313fd730fb660d3130f651c418eb4b1474ebe474349d7ceb4769",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/app/login/page.tsx"
     },
     {
-      "path": "src/app/page.tsx",
+      "path": "service/src/app/page.tsx",
       "originalSha256": "839399829f8efd61bfe5d05b893e0e30f31d2bc0032b35ef92a52dc12845df91",
       "submissionSha256": "839399829f8efd61bfe5d05b893e0e30f31d2bc0032b35ef92a52dc12845df91",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/app/page.tsx"
     },
     {
-      "path": "src/app/portfolio/actions.ts",
+      "path": "service/src/app/portfolio/actions.ts",
       "originalSha256": "0e3c1978e691bbb2bcfa8ffc3b41e00bd6bd0311e35ef16b63d4f83dd8e50e9c",
       "submissionSha256": "0e3c1978e691bbb2bcfa8ffc3b41e00bd6bd0311e35ef16b63d4f83dd8e50e9c",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/app/portfolio/actions.ts"
     },
     {
-      "path": "src/app/portfolio/loading.tsx",
+      "path": "service/src/app/portfolio/loading.tsx",
       "originalSha256": "74967991a6fbb2cdeaf411a2be2f2d703bfeeb0654f570e98d6c33980f53f42b",
       "submissionSha256": "74967991a6fbb2cdeaf411a2be2f2d703bfeeb0654f570e98d6c33980f53f42b",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/app/portfolio/loading.tsx"
     },
     {
-      "path": "src/app/portfolio/page.tsx",
+      "path": "service/src/app/portfolio/page.tsx",
       "originalSha256": "12014cd5e50742b34d85a1b2fdb4e124301acde20d63591e66b87696d466d8af",
       "submissionSha256": "12014cd5e50742b34d85a1b2fdb4e124301acde20d63591e66b87696d466d8af",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/app/portfolio/page.tsx"
     },
     {
-      "path": "src/app/reset-password/page.tsx",
+      "path": "service/src/app/reset-password/page.tsx",
       "originalSha256": "08b6416497daed96b56a459b2ff1c217b3a8d3cc236f334260f9b7c0c32d10f4",
       "submissionSha256": "08b6416497daed96b56a459b2ff1c217b3a8d3cc236f334260f9b7c0c32d10f4",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/app/reset-password/page.tsx"
     },
     {
-      "path": "src/components/AddHoldingForm.tsx",
+      "path": "service/src/components/AddHoldingForm.tsx",
       "originalSha256": "6916ba7552b2787f70475b2c66c251c68aa5f1a573ba6d10a8fb2e7dba9ac962",
       "submissionSha256": "6916ba7552b2787f70475b2c66c251c68aa5f1a573ba6d10a8fb2e7dba9ac962",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/components/AddHoldingForm.tsx"
     },
     {
-      "path": "src/components/AddWatchForm.tsx",
+      "path": "service/src/components/AddWatchForm.tsx",
       "originalSha256": "5200b37473efa34b272a2d359cefdcae740c7584a82d14441930693fca22b393",
       "submissionSha256": "5200b37473efa34b272a2d359cefdcae740c7584a82d14441930693fca22b393",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/components/AddWatchForm.tsx"
     },
     {
-      "path": "src/components/AppHeader.tsx",
+      "path": "service/src/components/AppHeader.tsx",
       "originalSha256": "1ee98461b4b829d923d15f0ee0fc8a6978a23002e63c1025e9c09113f54c0164",
       "submissionSha256": "1ee98461b4b829d923d15f0ee0fc8a6978a23002e63c1025e9c09113f54c0164",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/components/AppHeader.tsx"
     },
     {
-      "path": "src/components/AssetHistoryChart.tsx",
+      "path": "service/src/components/AssetHistoryChart.tsx",
       "originalSha256": "bdcacfb06d2dd954509da82ccf955d9eaa9047ae6a2888ba8a2ae0651c97d809",
       "submissionSha256": "bdcacfb06d2dd954509da82ccf955d9eaa9047ae6a2888ba8a2ae0651c97d809",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/components/AssetHistoryChart.tsx"
     },
     {
-      "path": "src/components/AuthForm.tsx",
+      "path": "service/src/components/AuthForm.tsx",
       "originalSha256": "6a2bf9b2b576a596c1aa98716353a88b1e77c1b128348a790c922ac52d828bb2",
       "submissionSha256": "6a2bf9b2b576a596c1aa98716353a88b1e77c1b128348a790c922ac52d828bb2",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/components/AuthForm.tsx"
     },
     {
-      "path": "src/components/BriefingCitations.tsx",
+      "path": "service/src/components/BriefingCitations.tsx",
       "originalSha256": "908b343d9a888193cdbfb2d7b5b1b8b46021709e9dede6497527d9a45ae294ac",
       "submissionSha256": "908b343d9a888193cdbfb2d7b5b1b8b46021709e9dede6497527d9a45ae294ac",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/components/BriefingCitations.tsx"
     },
     {
-      "path": "src/components/BriefingForm.tsx",
+      "path": "service/src/components/BriefingForm.tsx",
       "originalSha256": "4a0add509f4c9998bbfbf5b097a1343a25d256fb70b2486ea6c088c5ca84e826",
       "submissionSha256": "4a0add509f4c9998bbfbf5b097a1343a25d256fb70b2486ea6c088c5ca84e826",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/components/BriefingForm.tsx"
     },
     {
-      "path": "src/components/Card.tsx",
+      "path": "service/src/components/Card.tsx",
       "originalSha256": "79d9110296bd0f6b93961590f47224365bc8769e09b6ccb0d4e05df3701d9dce",
       "submissionSha256": "79d9110296bd0f6b93961590f47224365bc8769e09b6ccb0d4e05df3701d9dce",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/components/Card.tsx"
     },
     {
-      "path": "src/components/EditableHoldingRow.tsx",
+      "path": "service/src/components/EditableHoldingRow.tsx",
       "originalSha256": "c2de4fed2a7806dfbcb015948875dd46b009dd2a84bb5abb5f05cd2af4998d9c",
       "submissionSha256": "c2de4fed2a7806dfbcb015948875dd46b009dd2a84bb5abb5f05cd2af4998d9c",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/components/EditableHoldingRow.tsx"
     },
     {
-      "path": "src/components/FeedList.tsx",
+      "path": "service/src/components/FeedList.tsx",
       "originalSha256": "e4371d1fad3b6a8913c68440d41f31a6f5c623f2b95c935c3d6219106d8ebec4",
       "submissionSha256": "e4371d1fad3b6a8913c68440d41f31a6f5c623f2b95c935c3d6219106d8ebec4",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/components/FeedList.tsx"
     },
     {
-      "path": "src/components/HeaderNav.tsx",
+      "path": "service/src/components/HeaderNav.tsx",
       "originalSha256": "1f53c2d480422419407329fd75287783b1dbb623adb38cd3ef0d5e71626bb7c6",
       "submissionSha256": "1f53c2d480422419407329fd75287783b1dbb623adb38cd3ef0d5e71626bb7c6",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/components/HeaderNav.tsx"
     },
     {
-      "path": "src/components/HoldingsTable.tsx",
+      "path": "service/src/components/HoldingsTable.tsx",
       "originalSha256": "f181ad5f1170dd8b7a2eba7f565df47c33a1784b2a865133bfbb1adda3a1b507",
       "submissionSha256": "f181ad5f1170dd8b7a2eba7f565df47c33a1784b2a865133bfbb1adda3a1b507",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/components/HoldingsTable.tsx"
     },
     {
-      "path": "src/components/MarketNewsList.tsx",
+      "path": "service/src/components/MarketNewsList.tsx",
       "originalSha256": "c629a1a45b99a65415ff107855386d7f179b33c05399bfd19c86863a39ab1983",
       "submissionSha256": "c629a1a45b99a65415ff107855386d7f179b33c05399bfd19c86863a39ab1983",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/components/MarketNewsList.tsx"
     },
     {
-      "path": "src/components/PortfolioSummary.tsx",
+      "path": "service/src/components/PortfolioSummary.tsx",
       "originalSha256": "066b4f0e008e06d6420f258a0b9e4ea64de26faa00997ad3b3fe594ec0fc92a7",
       "submissionSha256": "066b4f0e008e06d6420f258a0b9e4ea64de26faa00997ad3b3fe594ec0fc92a7",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/components/PortfolioSummary.tsx"
     },
     {
-      "path": "src/components/SignOutButton.tsx",
+      "path": "service/src/components/SignOutButton.tsx",
       "originalSha256": "0474fa2dcfb7b88e0858378eccd009cdad7e1e84ea5336cc2ebc5963a9f2f61f",
       "submissionSha256": "0474fa2dcfb7b88e0858378eccd009cdad7e1e84ea5336cc2ebc5963a9f2f61f",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/components/SignOutButton.tsx"
     },
     {
-      "path": "src/components/Spinner.tsx",
+      "path": "service/src/components/Spinner.tsx",
       "originalSha256": "14c5695b3fcdee4b18b6bfe2561cc0f486e42e28ee7e1088754afc8d72a51aab",
       "submissionSha256": "14c5695b3fcdee4b18b6bfe2561cc0f486e42e28ee7e1088754afc8d72a51aab",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/components/Spinner.tsx"
     },
     {
-      "path": "src/components/SubmitButton.tsx",
+      "path": "service/src/components/SubmitButton.tsx",
       "originalSha256": "74a537c45ee77c6b6375bfcdb9842b41569bb8f1a80b7632e473e9f99d327ae4",
       "submissionSha256": "74a537c45ee77c6b6375bfcdb9842b41569bb8f1a80b7632e473e9f99d327ae4",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/components/SubmitButton.tsx"
     },
     {
-      "path": "src/components/ThemeToggle.tsx",
+      "path": "service/src/components/ThemeToggle.tsx",
       "originalSha256": "a478c5bc5bc5f72884bdf361f327e79b572196b3c78f5923e53d10a25ee0ac95",
       "submissionSha256": "a478c5bc5bc5f72884bdf361f327e79b572196b3c78f5923e53d10a25ee0ac95",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/components/ThemeToggle.tsx"
     },
     {
-      "path": "src/components/TickerAutocomplete.tsx",
+      "path": "service/src/components/TickerAutocomplete.tsx",
       "originalSha256": "a19a8afec273df8d31a1144eee4d569d4c9ec6ac2fa6d3dfad697a48e9f1904a",
       "submissionSha256": "a19a8afec273df8d31a1144eee4d569d4c9ec6ac2fa6d3dfad697a48e9f1904a",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/components/TickerAutocomplete.tsx"
     },
     {
-      "path": "src/components/WatchlistManager.tsx",
+      "path": "service/src/components/WatchlistManager.tsx",
       "originalSha256": "ea834223f33366a0b31e793c0fccfda7de50529a077a0ff34cf82e343700803d",
       "submissionSha256": "ea834223f33366a0b31e793c0fccfda7de50529a077a0ff34cf82e343700803d",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/components/WatchlistManager.tsx"
     },
     {
-      "path": "src/components/WeightDonut.tsx",
+      "path": "service/src/components/WeightDonut.tsx",
       "originalSha256": "f7041a220ddd167a2c922978b03ade6dbf738c6568fcdc601ad2800edf4c8fb7",
       "submissionSha256": "f7041a220ddd167a2c922978b03ade6dbf738c6568fcdc601ad2800edf4c8fb7",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/components/WeightDonut.tsx"
     },
     {
-      "path": "src/lib/briefing/anthropic-provider.ts",
+      "path": "service/src/lib/briefing/anthropic-provider.ts",
       "originalSha256": "f5e365ba2e86f6c47aadab062ef64b4064102a45d06ed6c83cdd23bcda4c00ff",
       "submissionSha256": "f5e365ba2e86f6c47aadab062ef64b4064102a45d06ed6c83cdd23bcda4c00ff",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/lib/briefing/anthropic-provider.ts"
     },
     {
-      "path": "src/lib/briefing/evaluation-auth.ts",
+      "path": "service/src/lib/briefing/evaluation-auth.ts",
       "originalSha256": "a24f246587afbefc31b510c80c4cc013e4b3975ddf79113ae9824a65eccef15e",
       "submissionSha256": "a24f246587afbefc31b510c80c4cc013e4b3975ddf79113ae9824a65eccef15e",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/lib/briefing/evaluation-auth.ts"
     },
     {
-      "path": "src/lib/briefing/evaluation.ts",
+      "path": "service/src/lib/briefing/evaluation.ts",
       "originalSha256": "173e87b06606070d8c9a898b25b023ddcbaf56fa28bf62437c82d00c7c491bfe",
       "submissionSha256": "173e87b06606070d8c9a898b25b023ddcbaf56fa28bf62437c82d00c7c491bfe",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/lib/briefing/evaluation.ts"
     },
     {
-      "path": "src/lib/briefing/feedback.ts",
+      "path": "service/src/lib/briefing/feedback.ts",
       "originalSha256": "853affac974cb6cb1bfe76bcda6ed2f23d1e372826bfdd9de0dbb659d7e2a409",
       "submissionSha256": "853affac974cb6cb1bfe76bcda6ed2f23d1e372826bfdd9de0dbb659d7e2a409",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/lib/briefing/feedback.ts"
     },
     {
-      "path": "src/lib/briefing/guards.ts",
+      "path": "service/src/lib/briefing/guards.ts",
       "originalSha256": "5b657df618145d1f31ee7e815815525d42003748843dacd37f86746b17ffb75b",
       "submissionSha256": "5b657df618145d1f31ee7e815815525d42003748843dacd37f86746b17ffb75b",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/lib/briefing/guards.ts"
     },
     {
-      "path": "src/lib/briefing/http.ts",
+      "path": "service/src/lib/briefing/http.ts",
       "originalSha256": "1f402fcf351802f8b7f265b61745562d746a332dc4c567e1cabf2d0289e37461",
       "submissionSha256": "1f402fcf351802f8b7f265b61745562d746a332dc4c567e1cabf2d0289e37461",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/lib/briefing/http.ts"
     },
     {
-      "path": "src/lib/briefing/observability.ts",
+      "path": "service/src/lib/briefing/observability.ts",
       "originalSha256": "667f6b4b886e97e59013589b83259c91861b92750f04596da48b5d68c886651b",
       "submissionSha256": "667f6b4b886e97e59013589b83259c91861b92750f04596da48b5d68c886651b",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/lib/briefing/observability.ts"
     },
     {
-      "path": "src/lib/briefing/provider-config.ts",
+      "path": "service/src/lib/briefing/provider-config.ts",
       "originalSha256": "1814bff2dc8d5d7c22c0a37e027f0992af6b395c167c2049fa346a50539a0fd0",
       "submissionSha256": "1814bff2dc8d5d7c22c0a37e027f0992af6b395c167c2049fa346a50539a0fd0",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/lib/briefing/provider-config.ts"
     },
     {
-      "path": "src/lib/briefing/service.ts",
+      "path": "service/src/lib/briefing/service.ts",
       "originalSha256": "2215a3872265b4770aa4f3a3812d687643b30b0edaae674d07487af19506a970",
       "submissionSha256": "2215a3872265b4770aa4f3a3812d687643b30b0edaae674d07487af19506a970",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/lib/briefing/service.ts"
     },
     {
-      "path": "src/lib/briefing/telemetry/adapter.ts",
+      "path": "service/src/lib/briefing/telemetry/adapter.ts",
       "originalSha256": "74099c16119aa57db92fb2c11acd3e6b1d8229da6abe854298616ccaa095ecf3",
       "submissionSha256": "74099c16119aa57db92fb2c11acd3e6b1d8229da6abe854298616ccaa095ecf3",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/lib/briefing/telemetry/adapter.ts"
     },
     {
-      "path": "src/lib/briefing/telemetry/index.ts",
+      "path": "service/src/lib/briefing/telemetry/index.ts",
       "originalSha256": "abb3d4759f991be318870e7fe5bdecbff94251e1b1f844a71d9346ac86fc4fcc",
       "submissionSha256": "abb3d4759f991be318870e7fe5bdecbff94251e1b1f844a71d9346ac86fc4fcc",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/lib/briefing/telemetry/index.ts"
     },
     {
-      "path": "src/lib/briefing/telemetry/sdk.ts",
+      "path": "service/src/lib/briefing/telemetry/sdk.ts",
       "originalSha256": "c33ae2b8b285a32eac9b7ea2ba08936b6d4c0ed1c3c21aee8b62f370249e7eb1",
       "submissionSha256": "c33ae2b8b285a32eac9b7ea2ba08936b6d4c0ed1c3c21aee8b62f370249e7eb1",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/lib/briefing/telemetry/sdk.ts"
     },
     {
-      "path": "src/lib/briefing/types.ts",
+      "path": "service/src/lib/briefing/types.ts",
       "originalSha256": "ddb2b02a3590bfae5231a946bbec7ab301152a31222fe6fde3344bfea39abf20",
       "submissionSha256": "ddb2b02a3590bfae5231a946bbec7ab301152a31222fe6fde3344bfea39abf20",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/lib/briefing/types.ts"
     },
     {
-      "path": "src/lib/briefing/vertex-provider.ts",
+      "path": "service/src/lib/briefing/vertex-provider.ts",
       "originalSha256": "30c9f2c71dfdb475485539f634b39a1f6f634e06e024c167d08ee5617d6fd398",
       "submissionSha256": "30c9f2c71dfdb475485539f634b39a1f6f634e06e024c167d08ee5617d6fd398",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/lib/briefing/vertex-provider.ts"
     },
     {
-      "path": "src/lib/feed.ts",
+      "path": "service/src/lib/feed.ts",
       "originalSha256": "2aa38bbb2578cac4b36a534cc552b2c0b82f62f0b930b8bdc184ea0b2318f87c",
       "submissionSha256": "2aa38bbb2578cac4b36a534cc552b2c0b82f62f0b930b8bdc184ea0b2318f87c",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/lib/feed.ts"
     },
     {
-      "path": "src/lib/format.ts",
+      "path": "service/src/lib/format.ts",
       "originalSha256": "ac549a0db9e4857cc6c3030666d818fc27f636202146dd651b04ad06cde97e78",
       "submissionSha256": "ac549a0db9e4857cc6c3030666d818fc27f636202146dd651b04ad06cde97e78",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/lib/format.ts"
     },
     {
-      "path": "src/lib/fx.ts",
+      "path": "service/src/lib/fx.ts",
       "originalSha256": "5f891ea7d3efeba8336c4c402a84b7a95a3f9a4f02f311bdf0eca16909f16c7c",
       "submissionSha256": "5f891ea7d3efeba8336c4c402a84b7a95a3f9a4f02f311bdf0eca16909f16c7c",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/lib/fx.ts"
     },
     {
-      "path": "src/lib/game-api.ts",
+      "path": "service/src/lib/game-api.ts",
       "originalSha256": "21a09985b70142a1a5c9e3a55fca53ef4f117a1fd50aba060c9af357de12dc03",
       "submissionSha256": "21a09985b70142a1a5c9e3a55fca53ef4f117a1fd50aba060c9af357de12dc03",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/lib/game-api.ts"
     },
     {
-      "path": "src/lib/history.ts",
+      "path": "service/src/lib/history.ts",
       "originalSha256": "4748c3a5af87d885c7f9402e0db06584f25e482e4866a458dad89072d4121b88",
       "submissionSha256": "4748c3a5af87d885c7f9402e0db06584f25e482e4866a458dad89072d4121b88",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/lib/history.ts"
     },
     {
-      "path": "src/lib/portfolio.ts",
+      "path": "service/src/lib/portfolio.ts",
       "originalSha256": "cf12bfad4e255050ef821ddb988ca3841b8c8541d89a6c8e6e7387d58e269078",
       "submissionSha256": "cf12bfad4e255050ef821ddb988ca3841b8c8541d89a6c8e6e7387d58e269078",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/lib/portfolio.ts"
     },
     {
-      "path": "src/lib/quotes.ts",
+      "path": "service/src/lib/quotes.ts",
       "originalSha256": "f541c1d2fdc73429ea0f09b29b1632b5ae7d08109aa848ea1ea691d79c6385b6",
       "submissionSha256": "f541c1d2fdc73429ea0f09b29b1632b5ae7d08109aa848ea1ea691d79c6385b6",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/lib/quotes.ts"
     },
     {
-      "path": "src/lib/supabase/admin.ts",
+      "path": "service/src/lib/supabase/admin.ts",
       "originalSha256": "04994f3ff88d6c663b5f3808ec92ab0bbe6647f0486fc4e520d04ec9bb881b00",
       "submissionSha256": "04994f3ff88d6c663b5f3808ec92ab0bbe6647f0486fc4e520d04ec9bb881b00",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/lib/supabase/admin.ts"
     },
     {
-      "path": "src/lib/supabase/client.ts",
+      "path": "service/src/lib/supabase/client.ts",
       "originalSha256": "d7f065e3043723adece9f06ad42d682ee26f84a118c748832ef05dd9655c27f3",
       "submissionSha256": "d7f065e3043723adece9f06ad42d682ee26f84a118c748832ef05dd9655c27f3",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/lib/supabase/client.ts"
     },
     {
-      "path": "src/lib/supabase/proxy.ts",
+      "path": "service/src/lib/supabase/proxy.ts",
       "originalSha256": "f67268b5665abdd55e258cce945cbd900fa3948e29c01a37e77b2bb07ada100f",
       "submissionSha256": "f67268b5665abdd55e258cce945cbd900fa3948e29c01a37e77b2bb07ada100f",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/lib/supabase/proxy.ts"
     },
     {
-      "path": "src/lib/supabase/redirects.ts",
+      "path": "service/src/lib/supabase/redirects.ts",
       "originalSha256": "811970be0302fabe319d896e56948fd3abec82e68b0357460ee3705708c5a584",
       "submissionSha256": "811970be0302fabe319d896e56948fd3abec82e68b0357460ee3705708c5a584",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/lib/supabase/redirects.ts"
     },
     {
-      "path": "src/lib/supabase/server.ts",
+      "path": "service/src/lib/supabase/server.ts",
       "originalSha256": "b0edf90c9d59187cbb8d60eb0ede869050f76516e4b99ad1a75dcc841b72973d",
       "submissionSha256": "b0edf90c9d59187cbb8d60eb0ede869050f76516e4b99ad1a75dcc841b72973d",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/lib/supabase/server.ts"
     },
     {
-      "path": "src/lib/symbols.ts",
+      "path": "service/src/lib/symbols.ts",
       "originalSha256": "4f496c4e11cb8dd10f0140bda85e91ed8e7afe57f31c9f454ba3840016626865",
       "submissionSha256": "4f496c4e11cb8dd10f0140bda85e91ed8e7afe57f31c9f454ba3840016626865",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/lib/symbols.ts"
     },
     {
-      "path": "src/lib/types.ts",
+      "path": "service/src/lib/types.ts",
       "originalSha256": "b514b92283b145061759c8d4583158e69d6b390df86e174b81242b9f48650de1",
       "submissionSha256": "b514b92283b145061759c8d4583158e69d6b390df86e174b81242b9f48650de1",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/lib/types.ts"
     },
     {
-      "path": "src/lib/validation.ts",
+      "path": "service/src/lib/validation.ts",
       "originalSha256": "16b219e9638bd7852782af13254064a11c98ed715cf267bec01468fa04886755",
       "submissionSha256": "16b219e9638bd7852782af13254064a11c98ed715cf267bec01468fa04886755",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/lib/validation.ts"
     },
     {
-      "path": "src/proxy.ts",
+      "path": "service/src/proxy.ts",
       "originalSha256": "a435d103f72ff668b81de2426478f7441d569c4dd724e2f13b2f1cf6960565df",
       "submissionSha256": "a435d103f72ff668b81de2426478f7441d569c4dd724e2f13b2f1cf6960565df",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "src/proxy.ts"
     },
     {
-      "path": "supabase/schema.sql",
+      "path": "service/supabase/schema.sql",
       "originalSha256": "fb6e9b0fbe00578b26b77c17e2385ffaa62b65e06933abae003597ea0b40069f",
       "submissionSha256": "fb6e9b0fbe00578b26b77c17e2385ffaa62b65e06933abae003597ea0b40069f",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "supabase/schema.sql"
     },
     {
-      "path": "tools/quest-evaluation/.gitignore",
+      "path": "service/tools/quest-evaluation/.gitignore",
       "originalSha256": "c68299b64583505c8d5316564bb3b8d7b7b7a2ca3cc53311c26f905b179eeda9",
       "submissionSha256": "c68299b64583505c8d5316564bb3b8d7b7b7a2ca3cc53311c26f905b179eeda9",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "tools/quest-evaluation/.gitignore"
     },
     {
-      "path": "tools/quest-evaluation/fixtures/cases.json",
+      "path": "service/tools/quest-evaluation/fixtures/cases.json",
       "originalSha256": "add0cdcfa8d7a15d67f019ce7c36bb5c991dbc5b204073b9ecc1685ae86b13ae",
       "submissionSha256": "add0cdcfa8d7a15d67f019ce7c36bb5c991dbc5b204073b9ecc1685ae86b13ae",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "tools/quest-evaluation/fixtures/cases.json"
     },
     {
-      "path": "tools/quest-evaluation/fixtures/manifest.json",
+      "path": "service/tools/quest-evaluation/fixtures/manifest.json",
       "originalSha256": "42d3933acf0c583d22eabaecf063601ab7837d1520ef1ae08411b8b1e9dee681",
       "submissionSha256": "42d3933acf0c583d22eabaecf063601ab7837d1520ef1ae08411b8b1e9dee681",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "tools/quest-evaluation/fixtures/manifest.json"
     },
     {
-      "path": "tools/quest-evaluation/replay.mjs",
+      "path": "service/tools/quest-evaluation/replay.mjs",
       "originalSha256": "59f2f05f64bcd8dddc7f5a035fa1833416ef1d1c6584d1e360dbc55831549ac1",
       "submissionSha256": "59f2f05f64bcd8dddc7f5a035fa1833416ef1d1c6584d1e360dbc55831549ac1",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "tools/quest-evaluation/replay.mjs"
     },
     {
-      "path": "tools/quest-evaluation/smoke.mjs",
+      "path": "service/tools/quest-evaluation/smoke.mjs",
       "originalSha256": "46eb2987222f7164a03246832f10536321f614d6f6cf594a225c97817975a9c2",
       "submissionSha256": "46eb2987222f7164a03246832f10536321f614d6f6cf594a225c97817975a9c2",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "tools/quest-evaluation/smoke.mjs"
     },
     {
-      "path": "tools/quest-evaluation/src/cli.mjs",
+      "path": "service/tools/quest-evaluation/src/cli.mjs",
       "originalSha256": "9bae6210859348bdc3acea47cd3a0f3ba8e86122601a5fbf7df1afd6325146c7",
       "submissionSha256": "9bae6210859348bdc3acea47cd3a0f3ba8e86122601a5fbf7df1afd6325146c7",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "tools/quest-evaluation/src/cli.mjs"
     },
     {
-      "path": "tools/quest-evaluation/src/collect.mjs",
+      "path": "service/tools/quest-evaluation/src/collect.mjs",
       "originalSha256": "2613a7cf2e67aa7c2e48ed0b7c0720f6248cd9f10a07842951b1f3d936aa9170",
       "submissionSha256": "2613a7cf2e67aa7c2e48ed0b7c0720f6248cd9f10a07842951b1f3d936aa9170",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "tools/quest-evaluation/src/collect.mjs"
     },
     {
-      "path": "tools/quest-evaluation/src/evaluate.mjs",
+      "path": "service/tools/quest-evaluation/src/evaluate.mjs",
       "originalSha256": "618afe4a0f0a2a3b10704807f455e2fa8c536e18618c19c2b26cbe3ad6b9c600",
       "submissionSha256": "618afe4a0f0a2a3b10704807f455e2fa8c536e18618c19c2b26cbe3ad6b9c600",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "tools/quest-evaluation/src/evaluate.mjs"
     },
     {
-      "path": "tools/quest-evaluation/src/join.mjs",
+      "path": "service/tools/quest-evaluation/src/join.mjs",
       "originalSha256": "f62522c190747b1015890fd37c27758ca4685737f14ef39083849dbd3d5d1a4c",
       "submissionSha256": "f62522c190747b1015890fd37c27758ca4685737f14ef39083849dbd3d5d1a4c",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "tools/quest-evaluation/src/join.mjs"
     },
     {
-      "path": "tools/quest-evaluation/src/replay.mjs",
+      "path": "service/tools/quest-evaluation/src/replay.mjs",
       "originalSha256": "9d164f837b43c19ba3d0292da5b7818b6df8d90280af531e3158283ef73ac448",
       "submissionSha256": "9d164f837b43c19ba3d0292da5b7818b6df8d90280af531e3158283ef73ac448",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "tools/quest-evaluation/src/replay.mjs"
     },
     {
-      "path": "tools/quest-evaluation/src/service-loader.mjs",
+      "path": "service/tools/quest-evaluation/src/service-loader.mjs",
       "originalSha256": "55d2d299cc487b350a9ebe6bcb6036182955cbc5dbdd61af493db1e6947d5abc",
       "submissionSha256": "55d2d299cc487b350a9ebe6bcb6036182955cbc5dbdd61af493db1e6947d5abc",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "tools/quest-evaluation/src/service-loader.mjs"
     },
     {
-      "path": "tools/quest-evaluation/src/store.mjs",
+      "path": "service/tools/quest-evaluation/src/store.mjs",
       "originalSha256": "e607176844d33e0af9b07d201645e7b06886e0d501d264ecfc4bb046b44b61c3",
       "submissionSha256": "e607176844d33e0af9b07d201645e7b06886e0d501d264ecfc4bb046b44b61c3",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "tools/quest-evaluation/src/store.mjs"
     },
     {
-      "path": "tools/quest-evaluation/test/evaluation.test.mjs",
+      "path": "service/tools/quest-evaluation/test/evaluation.test.mjs",
       "originalSha256": "af5a5264ec8d543e0d11593475371b8d8aa682ad1101b737087f52131406b282",
       "submissionSha256": "af5a5264ec8d543e0d11593475371b8d8aa682ad1101b737087f52131406b282",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "tools/quest-evaluation/test/evaluation.test.mjs"
     },
     {
-      "path": "tools/quest-evaluation/test/integration.test.mjs",
+      "path": "service/tools/quest-evaluation/test/integration.test.mjs",
       "originalSha256": "d9429d798254d01d64892026ba9089aa01027abe991a16550a55d21197c7ef07",
       "submissionSha256": "d9429d798254d01d64892026ba9089aa01027abe991a16550a55d21197c7ef07",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "tools/quest-evaluation/test/integration.test.mjs"
     },
     {
-      "path": "tools/quest-evaluation/test/replay.test.mjs",
+      "path": "service/tools/quest-evaluation/test/replay.test.mjs",
       "originalSha256": "0c7e5f83f9e86d288606e2a128f8a77e9e9174ad2be8749cda456a706273401f",
       "submissionSha256": "0c7e5f83f9e86d288606e2a128f8a77e9e9174ad2be8749cda456a706273401f",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "tools/quest-evaluation/test/replay.test.mjs"
     },
     {
-      "path": "tools/quest-evaluation/test/review-regressions.test.mjs",
+      "path": "service/tools/quest-evaluation/test/review-regressions.test.mjs",
       "originalSha256": "c67d2d2dcd2acbc0c09bf10fc5e6e3617d168adfb0a3a6d92a81a4cb7fed1b9e",
       "submissionSha256": "c67d2d2dcd2acbc0c09bf10fc5e6e3617d168adfb0a3a6d92a81a4cb7fed1b9e",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "tools/quest-evaluation/test/review-regressions.test.mjs"
     },
     {
-      "path": "tools/quest-evaluation/versions/v1/anthropic-provider.ts",
+      "path": "service/tools/quest-evaluation/versions/v1/anthropic-provider.ts",
       "originalSha256": "ce6356af0ef3a55ad703cfbe0e5c4278411ce04f796ce2abe16c2a540745b1b2",
       "submissionSha256": "ce6356af0ef3a55ad703cfbe0e5c4278411ce04f796ce2abe16c2a540745b1b2",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "tools/quest-evaluation/versions/v1/anthropic-provider.ts"
     },
     {
-      "path": "tools/quest-evaluation/versions/v1/evaluation-auth.ts",
+      "path": "service/tools/quest-evaluation/versions/v1/evaluation-auth.ts",
       "originalSha256": "a24f246587afbefc31b510c80c4cc013e4b3975ddf79113ae9824a65eccef15e",
       "submissionSha256": "a24f246587afbefc31b510c80c4cc013e4b3975ddf79113ae9824a65eccef15e",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "tools/quest-evaluation/versions/v1/evaluation-auth.ts"
     },
     {
-      "path": "tools/quest-evaluation/versions/v1/evaluation.ts",
+      "path": "service/tools/quest-evaluation/versions/v1/evaluation.ts",
       "originalSha256": "173e87b06606070d8c9a898b25b023ddcbaf56fa28bf62437c82d00c7c491bfe",
       "submissionSha256": "173e87b06606070d8c9a898b25b023ddcbaf56fa28bf62437c82d00c7c491bfe",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "tools/quest-evaluation/versions/v1/evaluation.ts"
     },
     {
-      "path": "tools/quest-evaluation/versions/v1/feedback.ts",
+      "path": "service/tools/quest-evaluation/versions/v1/feedback.ts",
       "originalSha256": "8fc8032dc7ae5b0937310713e074ce213058c58265cd40ac2a2af357ed1f7b1f",
       "submissionSha256": "8fc8032dc7ae5b0937310713e074ce213058c58265cd40ac2a2af357ed1f7b1f",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "tools/quest-evaluation/versions/v1/feedback.ts"
     },
     {
-      "path": "tools/quest-evaluation/versions/v1/guards.ts",
+      "path": "service/tools/quest-evaluation/versions/v1/guards.ts",
       "originalSha256": "5b657df618145d1f31ee7e815815525d42003748843dacd37f86746b17ffb75b",
       "submissionSha256": "5b657df618145d1f31ee7e815815525d42003748843dacd37f86746b17ffb75b",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "tools/quest-evaluation/versions/v1/guards.ts"
     },
     {
-      "path": "tools/quest-evaluation/versions/v1/http.ts",
+      "path": "service/tools/quest-evaluation/versions/v1/http.ts",
       "originalSha256": "1f402fcf351802f8b7f265b61745562d746a332dc4c567e1cabf2d0289e37461",
       "submissionSha256": "1f402fcf351802f8b7f265b61745562d746a332dc4c567e1cabf2d0289e37461",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "tools/quest-evaluation/versions/v1/http.ts"
     },
     {
-      "path": "tools/quest-evaluation/versions/v1/manifest.json",
+      "path": "service/tools/quest-evaluation/versions/v1/manifest.json",
       "originalSha256": "12bfdfd77b4ee0f3fbf8b18360fd598bd9020017ab31fc5b4ab59b18d7843cf6",
       "submissionSha256": "12bfdfd77b4ee0f3fbf8b18360fd598bd9020017ab31fc5b4ab59b18d7843cf6",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "tools/quest-evaluation/versions/v1/manifest.json"
     },
     {
-      "path": "tools/quest-evaluation/versions/v1/observability.ts",
+      "path": "service/tools/quest-evaluation/versions/v1/observability.ts",
       "originalSha256": "0e58f8c848369b472ff230b9dd9baf52fae508639dbb6b2deba061f4a89de411",
       "submissionSha256": "0e58f8c848369b472ff230b9dd9baf52fae508639dbb6b2deba061f4a89de411",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "tools/quest-evaluation/versions/v1/observability.ts"
     },
     {
-      "path": "tools/quest-evaluation/versions/v1/provider-config.ts",
+      "path": "service/tools/quest-evaluation/versions/v1/provider-config.ts",
       "originalSha256": "1814bff2dc8d5d7c22c0a37e027f0992af6b395c167c2049fa346a50539a0fd0",
       "submissionSha256": "1814bff2dc8d5d7c22c0a37e027f0992af6b395c167c2049fa346a50539a0fd0",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "tools/quest-evaluation/versions/v1/provider-config.ts"
     },
     {
-      "path": "tools/quest-evaluation/versions/v1/service.ts",
+      "path": "service/tools/quest-evaluation/versions/v1/service.ts",
       "originalSha256": "9f1352bf4837ae4433494a47f8a691911489dd008176fc47bde0f39487a4771b",
       "submissionSha256": "9f1352bf4837ae4433494a47f8a691911489dd008176fc47bde0f39487a4771b",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "tools/quest-evaluation/versions/v1/service.ts"
     },
     {
-      "path": "tools/quest-evaluation/versions/v1/telemetry/adapter.ts",
+      "path": "service/tools/quest-evaluation/versions/v1/telemetry/adapter.ts",
       "originalSha256": "6839fc5baa67eb2bd8790b538fa43eddcdd88f8a694b6a16866c7411037195bb",
       "submissionSha256": "6839fc5baa67eb2bd8790b538fa43eddcdd88f8a694b6a16866c7411037195bb",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "tools/quest-evaluation/versions/v1/telemetry/adapter.ts"
     },
     {
-      "path": "tools/quest-evaluation/versions/v1/telemetry/index.ts",
+      "path": "service/tools/quest-evaluation/versions/v1/telemetry/index.ts",
       "originalSha256": "abb3d4759f991be318870e7fe5bdecbff94251e1b1f844a71d9346ac86fc4fcc",
       "submissionSha256": "abb3d4759f991be318870e7fe5bdecbff94251e1b1f844a71d9346ac86fc4fcc",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "tools/quest-evaluation/versions/v1/telemetry/index.ts"
     },
     {
-      "path": "tools/quest-evaluation/versions/v1/telemetry/sdk.ts",
+      "path": "service/tools/quest-evaluation/versions/v1/telemetry/sdk.ts",
       "originalSha256": "c33ae2b8b285a32eac9b7ea2ba08936b6d4c0ed1c3c21aee8b62f370249e7eb1",
       "submissionSha256": "c33ae2b8b285a32eac9b7ea2ba08936b6d4c0ed1c3c21aee8b62f370249e7eb1",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "tools/quest-evaluation/versions/v1/telemetry/sdk.ts"
     },
     {
-      "path": "tools/quest-evaluation/versions/v1/types.ts",
+      "path": "service/tools/quest-evaluation/versions/v1/types.ts",
       "originalSha256": "d46ef451183794dcae235936761a9149006ef8b751ca9aae061a7ddee9e309ee",
       "submissionSha256": "d46ef451183794dcae235936761a9149006ef8b751ca9aae061a7ddee9e309ee",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "tools/quest-evaluation/versions/v1/types.ts"
     },
     {
-      "path": "tools/quest-evaluation/versions/v1/vertex-provider.ts",
+      "path": "service/tools/quest-evaluation/versions/v1/vertex-provider.ts",
       "originalSha256": "30c9f2c71dfdb475485539f634b39a1f6f634e06e024c167d08ee5617d6fd398",
       "submissionSha256": "30c9f2c71dfdb475485539f634b39a1f6f634e06e024c167d08ee5617d6fd398",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "tools/quest-evaluation/versions/v1/vertex-provider.ts"
     },
     {
-      "path": "tools/quest-evaluation/versions/v2/anthropic-provider.ts",
+      "path": "service/tools/quest-evaluation/versions/v2/anthropic-provider.ts",
       "originalSha256": "05409172a0bba2f162b88ff420f428f5eb81d0f7d3232757dc9b60e7b0d61f6f",
       "submissionSha256": "05409172a0bba2f162b88ff420f428f5eb81d0f7d3232757dc9b60e7b0d61f6f",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "tools/quest-evaluation/versions/v2/anthropic-provider.ts"
     },
     {
-      "path": "tools/quest-evaluation/versions/v2/evaluation-auth.ts",
+      "path": "service/tools/quest-evaluation/versions/v2/evaluation-auth.ts",
       "originalSha256": "a24f246587afbefc31b510c80c4cc013e4b3975ddf79113ae9824a65eccef15e",
       "submissionSha256": "a24f246587afbefc31b510c80c4cc013e4b3975ddf79113ae9824a65eccef15e",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "tools/quest-evaluation/versions/v2/evaluation-auth.ts"
     },
     {
-      "path": "tools/quest-evaluation/versions/v2/evaluation.ts",
+      "path": "service/tools/quest-evaluation/versions/v2/evaluation.ts",
       "originalSha256": "173e87b06606070d8c9a898b25b023ddcbaf56fa28bf62437c82d00c7c491bfe",
       "submissionSha256": "173e87b06606070d8c9a898b25b023ddcbaf56fa28bf62437c82d00c7c491bfe",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "tools/quest-evaluation/versions/v2/evaluation.ts"
     },
     {
-      "path": "tools/quest-evaluation/versions/v2/feedback.ts",
+      "path": "service/tools/quest-evaluation/versions/v2/feedback.ts",
       "originalSha256": "8fc8032dc7ae5b0937310713e074ce213058c58265cd40ac2a2af357ed1f7b1f",
       "submissionSha256": "8fc8032dc7ae5b0937310713e074ce213058c58265cd40ac2a2af357ed1f7b1f",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "tools/quest-evaluation/versions/v2/feedback.ts"
     },
     {
-      "path": "tools/quest-evaluation/versions/v2/guards.ts",
+      "path": "service/tools/quest-evaluation/versions/v2/guards.ts",
       "originalSha256": "5b657df618145d1f31ee7e815815525d42003748843dacd37f86746b17ffb75b",
       "submissionSha256": "5b657df618145d1f31ee7e815815525d42003748843dacd37f86746b17ffb75b",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "tools/quest-evaluation/versions/v2/guards.ts"
     },
     {
-      "path": "tools/quest-evaluation/versions/v2/http.ts",
+      "path": "service/tools/quest-evaluation/versions/v2/http.ts",
       "originalSha256": "1f402fcf351802f8b7f265b61745562d746a332dc4c567e1cabf2d0289e37461",
       "submissionSha256": "1f402fcf351802f8b7f265b61745562d746a332dc4c567e1cabf2d0289e37461",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "tools/quest-evaluation/versions/v2/http.ts"
     },
     {
-      "path": "tools/quest-evaluation/versions/v2/manifest.json",
+      "path": "service/tools/quest-evaluation/versions/v2/manifest.json",
       "originalSha256": "1a6789953874f81c23c5eeb99b38e25b62afbdd7e34b53d2f46425ca941b3a70",
       "submissionSha256": "1a6789953874f81c23c5eeb99b38e25b62afbdd7e34b53d2f46425ca941b3a70",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "tools/quest-evaluation/versions/v2/manifest.json"
     },
     {
-      "path": "tools/quest-evaluation/versions/v2/observability.ts",
+      "path": "service/tools/quest-evaluation/versions/v2/observability.ts",
       "originalSha256": "0e58f8c848369b472ff230b9dd9baf52fae508639dbb6b2deba061f4a89de411",
       "submissionSha256": "0e58f8c848369b472ff230b9dd9baf52fae508639dbb6b2deba061f4a89de411",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "tools/quest-evaluation/versions/v2/observability.ts"
     },
     {
-      "path": "tools/quest-evaluation/versions/v2/provider-config.ts",
+      "path": "service/tools/quest-evaluation/versions/v2/provider-config.ts",
       "originalSha256": "1814bff2dc8d5d7c22c0a37e027f0992af6b395c167c2049fa346a50539a0fd0",
       "submissionSha256": "1814bff2dc8d5d7c22c0a37e027f0992af6b395c167c2049fa346a50539a0fd0",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "tools/quest-evaluation/versions/v2/provider-config.ts"
     },
     {
-      "path": "tools/quest-evaluation/versions/v2/service.ts",
+      "path": "service/tools/quest-evaluation/versions/v2/service.ts",
       "originalSha256": "9f1352bf4837ae4433494a47f8a691911489dd008176fc47bde0f39487a4771b",
       "submissionSha256": "9f1352bf4837ae4433494a47f8a691911489dd008176fc47bde0f39487a4771b",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "tools/quest-evaluation/versions/v2/service.ts"
     },
     {
-      "path": "tools/quest-evaluation/versions/v2/telemetry/adapter.ts",
+      "path": "service/tools/quest-evaluation/versions/v2/telemetry/adapter.ts",
       "originalSha256": "6839fc5baa67eb2bd8790b538fa43eddcdd88f8a694b6a16866c7411037195bb",
       "submissionSha256": "6839fc5baa67eb2bd8790b538fa43eddcdd88f8a694b6a16866c7411037195bb",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "tools/quest-evaluation/versions/v2/telemetry/adapter.ts"
     },
     {
-      "path": "tools/quest-evaluation/versions/v2/telemetry/index.ts",
+      "path": "service/tools/quest-evaluation/versions/v2/telemetry/index.ts",
       "originalSha256": "abb3d4759f991be318870e7fe5bdecbff94251e1b1f844a71d9346ac86fc4fcc",
       "submissionSha256": "abb3d4759f991be318870e7fe5bdecbff94251e1b1f844a71d9346ac86fc4fcc",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "tools/quest-evaluation/versions/v2/telemetry/index.ts"
     },
     {
-      "path": "tools/quest-evaluation/versions/v2/telemetry/sdk.ts",
+      "path": "service/tools/quest-evaluation/versions/v2/telemetry/sdk.ts",
       "originalSha256": "c33ae2b8b285a32eac9b7ea2ba08936b6d4c0ed1c3c21aee8b62f370249e7eb1",
       "submissionSha256": "c33ae2b8b285a32eac9b7ea2ba08936b6d4c0ed1c3c21aee8b62f370249e7eb1",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "tools/quest-evaluation/versions/v2/telemetry/sdk.ts"
     },
     {
-      "path": "tools/quest-evaluation/versions/v2/types.ts",
+      "path": "service/tools/quest-evaluation/versions/v2/types.ts",
       "originalSha256": "8efd8019b5f9e4bdd3e20827c2c5008785d05cb65a44dc15d4b02ce1ff3ab983",
       "submissionSha256": "8efd8019b5f9e4bdd3e20827c2c5008785d05cb65a44dc15d4b02ce1ff3ab983",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "tools/quest-evaluation/versions/v2/types.ts"
     },
     {
-      "path": "tools/quest-evaluation/versions/v2/vertex-provider.ts",
+      "path": "service/tools/quest-evaluation/versions/v2/vertex-provider.ts",
       "originalSha256": "30c9f2c71dfdb475485539f634b39a1f6f634e06e024c167d08ee5617d6fd398",
       "submissionSha256": "30c9f2c71dfdb475485539f634b39a1f6f634e06e024c167d08ee5617d6fd398",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "tools/quest-evaluation/versions/v2/vertex-provider.ts"
     },
     {
-      "path": "tsconfig.json",
+      "path": "service/tsconfig.json",
       "originalSha256": "dbacf04aa5f38c1ce4b0f030fbb84e5adff19306fb785b2e4aafef9c58705658",
       "submissionSha256": "dbacf04aa5f38c1ce4b0f030fbb84e5adff19306fb785b2e4aafef9c58705658",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "tsconfig.json"
     },
     {
-      "path": "vercel.json",
+      "path": "service/vercel.json",
       "originalSha256": "80d02d91003f2c164a07464cfdce78c0a4ab7b0a5a8dc38921005b99510b26ef",
       "submissionSha256": "80d02d91003f2c164a07464cfdce78c0a4ab7b0a5a8dc38921005b99510b26ef",
-      "transformation": "byte-identical copy"
+      "transformation": "byte-identical copy",
+      "sourcePath": "vercel.json"
     }
   ],
-  "submissionRule": "Service code and REPORT.md in one repository; no conversation-content files or keys."
+  "submissionRule": "Service code and REPORT.md in one repository; no conversation-content files or keys.",
+  "layoutNote": "Service paths relocated under service/; sourcePath identifies the original source-commit location. Original code bytes unchanged."
 }

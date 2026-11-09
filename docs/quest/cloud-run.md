@@ -99,7 +99,7 @@ Follow-up validation: `node scripts/cloud-run/origin-check.cjs` passed 40 origin
 
 ## Public reproduction versus private execution records
 
-Use the public [environment template](https://github.com/cjwmanelf/us-stock-dashboard/blob/594ad5a64bc6b88a24e6a0c3228ab870bdae9e06/.env.briefing.example), [config example](../../scripts/cloud-run/config.example.json), [build script](../../scripts/cloud-run/build.mjs) and [deploy script](../../scripts/cloud-run/deploy.mjs). Keep the populated config outside the repository; use only public build values and pinned Secret Manager references. Read UTF-8 env files with the leading BOM stripped before parseEnv, and reject missing/undefined/null or non-HTTPS Supabase URLs before building. Contract and prompt versions come from the frozen source, not a fixed example label; experiments in progress are not approved releases.
+Use the public [environment template](https://github.com/cjwmanelf/us-stock-dashboard/blob/594ad5a64bc6b88a24e6a0c3228ab870bdae9e06/.env.briefing.example), [config example](../../service/scripts/cloud-run/config.example.json), [build script](../../service/scripts/cloud-run/build.mjs) and [deploy script](../../service/scripts/cloud-run/deploy.mjs). Keep the populated config outside the repository; use only public build values and pinned Secret Manager references. Read UTF-8 env files with the leading BOM stripped before parseEnv, and reject missing/undefined/null or non-HTTPS Supabase URLs before building. Contract and prompt versions come from the frozen source, not a fixed example label; experiments in progress are not approved releases.
 
 From a clean Node24 checkout, after installing the lockfile dependencies, the following commands only preview Docker/gcloud operations:
 
